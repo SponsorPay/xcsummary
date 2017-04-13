@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
                                                                            showSuccessTests:showSuccess];
         [builder appendSummaries:summaries];
         [summaries enumerateObjectsUsingBlock:^(CMTestableSummary *summary, NSUInteger idx, BOOL * _Nonnull stop) {
-            [builder appendTests:summary.tests indentation:10.0f];
+            [builder appendTests:summary.tests];
         }];
         
         NSString *htmlResult = [builder build];

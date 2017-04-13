@@ -1,0 +1,4329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>ActionResult</key>
+			<dict>
+				<key>AnalyzerWarningCount</key>
+				<integer>0</integer>
+				<key>ErrorCount</key>
+				<integer>0</integer>
+				<key>Status</key>
+				<string>IDEActionResultStatus_NotRequested</string>
+				<key>TestsCount</key>
+				<integer>0</integer>
+				<key>TestsFailedCount</key>
+				<integer>0</integer>
+				<key>WarningCount</key>
+				<integer>0</integer>
+			</dict>
+			<key>BuildResult</key>
+			<dict>
+				<key>AnalyzerWarningCount</key>
+				<integer>0</integer>
+				<key>AnalyzerWarningSummaries</key>
+				<array/>
+				<key>ErrorCount</key>
+				<integer>0</integer>
+				<key>ErrorSummaries</key>
+				<array/>
+				<key>LogPath</key>
+				<string>1_Run/build.xcactivitylog</string>
+				<key>Status</key>
+				<string>IDEActionResultStatus_Succeeded</string>
+				<key>TestFailureSummaries</key>
+				<array/>
+				<key>TestsCount</key>
+				<integer>0</integer>
+				<key>TestsFailedCount</key>
+				<integer>0</integer>
+				<key>WarningCount</key>
+				<integer>0</integer>
+				<key>WarningSummaries</key>
+				<array/>
+			</dict>
+			<key>EndedTime</key>
+			<date>2017-04-10T07:40:12Z</date>
+			<key>RunDestination</key>
+			<dict>
+				<key>LocalComputer</key>
+				<dict>
+					<key>BusSpeedInMHz</key>
+					<integer>100</integer>
+					<key>CPUCount</key>
+					<integer>1</integer>
+					<key>CPUKind</key>
+					<string>Intel Core i7</string>
+					<key>CPUSpeedInMHz</key>
+					<integer>3000</integer>
+					<key>Identifier</key>
+					<string>6C8054DF-29FE-549A-8BDF-C6E3BD4AD5FC</string>
+					<key>IsConcreteDevice</key>
+					<true/>
+					<key>LogicalCPUCoresPerPackage</key>
+					<integer>4</integer>
+					<key>ModelCode</key>
+					<string>MacBookPro11,1</string>
+					<key>ModelName</key>
+					<string>MacBook Pro</string>
+					<key>ModelUTI</key>
+					<string>com.apple.macbookpro-13-retina-display</string>
+					<key>Name</key>
+					<string>My Mac</string>
+					<key>NativeArchitecture</key>
+					<string>x86_64h</string>
+					<key>OperatingSystemVersion</key>
+					<string>10.12.3</string>
+					<key>OperatingSystemVersionWithBuildNumber</key>
+					<string>10.12.3 (16D32)</string>
+					<key>PhysicalCPUCoresPerPackage</key>
+					<integer>2</integer>
+					<key>Platform</key>
+					<dict>
+						<key>Identifier</key>
+						<string>com.apple.platform.macosx</string>
+						<key>Name</key>
+						<string>macOS</string>
+					</dict>
+					<key>RAMSizeInMegabytes</key>
+					<integer>8192</integer>
+				</dict>
+				<key>Name</key>
+				<string>tito</string>
+				<key>TargetArchitecture</key>
+				<string>arm64</string>
+				<key>TargetDevice</key>
+				<dict>
+					<key>Identifier</key>
+					<string>73363b7406eeb064e2d5ddec2667315d6110a16e</string>
+					<key>IsConcreteDevice</key>
+					<true/>
+					<key>ModelCode</key>
+					<string>iPhone9,3</string>
+					<key>ModelName</key>
+					<string>iPhone 7 (Model 1660, 1778, 1779, 1780)</string>
+					<key>ModelUTI</key>
+					<string>com.apple.iphone-7-1</string>
+					<key>Name</key>
+					<string>tito</string>
+					<key>NativeArchitecture</key>
+					<string>arm64</string>
+					<key>OperatingSystemVersion</key>
+					<string>10.2.1</string>
+					<key>OperatingSystemVersionWithBuildNumber</key>
+					<string>10.2.1 (14D27)</string>
+					<key>Platform</key>
+					<dict>
+						<key>Identifier</key>
+						<string>com.apple.platform.iphoneos</string>
+						<key>Name</key>
+						<string>iOS</string>
+					</dict>
+				</dict>
+				<key>TargetSDK</key>
+				<dict>
+					<key>Identifier</key>
+					<string>iphoneos10.2</string>
+					<key>IsInternal</key>
+					<false/>
+					<key>Name</key>
+					<string>iOS 10.2</string>
+					<key>OperatingSystemVersion</key>
+					<string>10.2</string>
+				</dict>
+			</dict>
+			<key>SchemeCommand</key>
+			<string>Run</string>
+			<key>SchemeTask</key>
+			<string>Build</string>
+			<key>StartedTime</key>
+			<date>2017-04-10T07:38:35Z</date>
+			<key>Title</key>
+			<string>Clean "FyberSDKFunctionalTests"</string>
+		</dict>
+		<dict>
+			<key>ActionResult</key>
+			<dict>
+				<key>AnalyzerWarningCount</key>
+				<integer>0</integer>
+				<key>AnalyzerWarningSummaries</key>
+				<array/>
+				<key>ErrorCount</key>
+				<integer>0</integer>
+				<key>ErrorSummaries</key>
+				<array/>
+				<key>LogPath</key>
+				<string>2_Test/action.xcactivitylog</string>
+				<key>Status</key>
+				<string>IDEActionResultStatus_Failed</string>
+				<key>TestFailureSummaries</key>
+				<array>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGISJYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBgZVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFRYU
+						FxQUW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACE///////////EACA
+						A4AAXxBDZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvJTND
+						dW5rbm93biUzRdIaGxwdWiRjbGFz
+						c25hbWVYJGNsYXNzZXNfEBdEVlRU
+						ZXh0RG9jdW1lbnRMb2NhdGlvbqMe
+						HyBfEBdEVlRUZXh0RG9jdW1lbnRM
+						b2NhdGlvbl8QE0RWVERvY3VtZW50
+						TG9jYXRpb25YTlNPYmplY3RfEA9O
+						U0tleWVkQXJjaGl2ZXLRIyRUcm9v
+						dIABAAgAEQAaACMALQAyADcAPABC
+						AFcAYwB6AI8AowC2AL0A0ADaAO8B
+						AwEFAQ4BEAESARQBWgFfAWoBcwGN
+						AZEBqwHBAcoB3AHfAeQAAAAAAAAC
+						AQAAAAAAAAAlAAAAAAAAAAAAAAAA
+						AAAB5g==
+						</data>
+						<key>IssueType</key>
+						<string>Uncategorized</string>
+						<key>Message</key>
+						<string>failed: caught "Expecta Error", "/Users/titouanvanbelle/workspace/fyber/ios-sdk/FyberSDK/FyberSDKFunctionalTests/Classes/Steps/StartSteps.m:73 expected: a falsy value, got: 1, which is truthy"
+(
+	0   CoreFoundation                      0x000000018282d1d0 &lt;redacted&gt; + 148
+	1   libobjc.A.dylib                     0x000000018126455c objc_exception_throw + 56
+	2   CoreFoundation                      0x000000018282ce80 &lt;redacted&gt; + 0
+	3   FyberSDKFunctionalTests             0x0000000102007658 -[EXPExpect applyMatcher:to:] + 888
+	4   FyberSDKFunctionalTests             0x0000000102008f00 __36-[EXPExpect(beFalsyMatcher) beFalsy]_block_invoke_5 + 256
+	5   FyberSDKFunctionalTests             0x0000000101fd71a0 __18-[StartSteps then]_block_invoke + 404
+	6   FyberSDKFunctionalTests             0x0000000101fe8cc0 -[CCIStepsManager executeStep:inTestCase:] + 740
+	7   FyberSDKFunctionalTests             0x0000000101fed918 executeSteps + 276
+	8   FyberSDKFunctionalTests             0x0000000101fedc68 __executeScenario_block_invoke + 64
+	9   FyberSDKFunctionalTests             0x0000000101fea804 -[Cucumberish executeAroundHocksWithScenario:executionBlock:] + 904
+	10  FyberSDKFunctionalTests             0x0000000101fec4a8 executeScenario + 1460
+	11  CoreFoundation                      0x0000000182833150 &lt;redacted&gt; + 144
+	12  CoreFoundation                      0x0000000182725eac &lt;redacted&gt; + 284
+	13  XCTest                              0x000000010017e0a8 __24-[XCTestCase invokeTest]_block_invoke_2 + 388
+	14  XCTest                              0x00000001001b2c98 -[XCTestContext performInScope:] + 208
+	15  XCTest                              0x000000010017df0c -[XCTestCase invokeTest] + 268
+	16  XCTest                              0x000000010017e5e0 -[XCTestCase performTest:] + 460
+	17  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	18  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	19  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	20  XCTest                              0x0000000100167740 __25-[XCTestDriver _runSuite]_block_invoke + 56
+	21  XCTest                              0x0000000100188260 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 528
+	22  XCTest                              0x00000001001675d8 -[XCTestDriver _runSuite] + 460
+	23  XCTest                              0x00000001001683b4 -[XCTestDriver _checkForTestManager] + 296
+	24  XCTest                              0x00000001001b4164 _XCTestMain + 628
+	25  CoreFoundation                      0x00000001827daa44 &lt;redacted&gt; + 20
+	26  CoreFoundation                      0x00000001827da240 &lt;redacted&gt; + 288
+	27  CoreFoundation                      0x00000001827d8094 &lt;redacted&gt; + 788
+	28  CoreFoundation                      0x00000001827062b8 CFRunLoopRunSpecific + 444
+	29  GraphicsServices                    0x00000001841ba198 GSEventRunModal + 180
+	30  UIKit                               0x000000018874d7fc &lt;redacted&gt; + 684
+	31  UIKit                               0x0000000188748534 UIApplicationMain + 208
+	32  XCTRunner                           0x00000001000b03d4 XCTRunner + 33748
+	33  libdyld.dylib                       0x00000001816e95b8 &lt;redacted&gt; + 4
+)</string>
+						<key>TestCase</key>
+						<string>-[CCISDKStartingTheSDK asAPublisherIWantToStartTheSDKWithAppIDOnly]</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGISJYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBgZVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFRYU
+						FxQUW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACE///////////EACA
+						A4AAXxBDZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvJTND
+						dW5rbm93biUzRdIaGxwdWiRjbGFz
+						c25hbWVYJGNsYXNzZXNfEBdEVlRU
+						ZXh0RG9jdW1lbnRMb2NhdGlvbqMe
+						HyBfEBdEVlRUZXh0RG9jdW1lbnRM
+						b2NhdGlvbl8QE0RWVERvY3VtZW50
+						TG9jYXRpb25YTlNPYmplY3RfEA9O
+						U0tleWVkQXJjaGl2ZXLRIyRUcm9v
+						dIABAAgAEQAaACMALQAyADcAPABC
+						AFcAYwB6AI8AowC2AL0A0ADaAO8B
+						AwEFAQ4BEAESARQBWgFfAWoBcwGN
+						AZEBqwHBAcoB3AHfAeQAAAAAAAAC
+						AQAAAAAAAAAlAAAAAAAAAAAAAAAA
+						AAAB5g==
+						</data>
+						<key>IssueType</key>
+						<string>Uncategorized</string>
+						<key>Message</key>
+						<string>failed: caught "Expecta Error", "/Users/titouanvanbelle/workspace/fyber/ios-sdk/FyberSDK/FyberSDKFunctionalTests/Classes/Steps/StartSteps.m:73 expected: a falsy value, got: 1, which is truthy"
+(
+	0   CoreFoundation                      0x000000018282d1d0 &lt;redacted&gt; + 148
+	1   libobjc.A.dylib                     0x000000018126455c objc_exception_throw + 56
+	2   CoreFoundation                      0x000000018282ce80 &lt;redacted&gt; + 0
+	3   FyberSDKFunctionalTests             0x0000000102007658 -[EXPExpect applyMatcher:to:] + 888
+	4   FyberSDKFunctionalTests             0x0000000102008f00 __36-[EXPExpect(beFalsyMatcher) beFalsy]_block_invoke_5 + 256
+	5   FyberSDKFunctionalTests             0x0000000101fd71a0 __18-[StartSteps then]_block_invoke + 404
+	6   FyberSDKFunctionalTests             0x0000000101fe8cc0 -[CCIStepsManager executeStep:inTestCase:] + 740
+	7   FyberSDKFunctionalTests             0x0000000101fed918 executeSteps + 276
+	8   FyberSDKFunctionalTests             0x0000000101fedc68 __executeScenario_block_invoke + 64
+	9   FyberSDKFunctionalTests             0x0000000101fea804 -[Cucumberish executeAroundHocksWithScenario:executionBlock:] + 904
+	10  FyberSDKFunctionalTests             0x0000000101fec4a8 executeScenario + 1460
+	11  CoreFoundation                      0x0000000182833150 &lt;redacted&gt; + 144
+	12  CoreFoundation                      0x0000000182725eac &lt;redacted&gt; + 284
+	13  XCTest                              0x000000010017e0a8 __24-[XCTestCase invokeTest]_block_invoke_2 + 388
+	14  XCTest                              0x00000001001b2c98 -[XCTestContext performInScope:] + 208
+	15  XCTest                              0x000000010017df0c -[XCTestCase invokeTest] + 268
+	16  XCTest                              0x000000010017e5e0 -[XCTestCase performTest:] + 460
+	17  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	18  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	19  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	20  XCTest                              0x0000000100167740 __25-[XCTestDriver _runSuite]_block_invoke + 56
+	21  XCTest                              0x0000000100188260 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 528
+	22  XCTest                              0x00000001001675d8 -[XCTestDriver _runSuite] + 460
+	23  XCTest                              0x00000001001683b4 -[XCTestDriver _checkForTestManager] + 296
+	24  XCTest                              0x00000001001b4164 _XCTestMain + 628
+	25  CoreFoundation                      0x00000001827daa44 &lt;redacted&gt; + 20
+	26  CoreFoundation                      0x00000001827da240 &lt;redacted&gt; + 288
+	27  CoreFoundation                      0x00000001827d8094 &lt;redacted&gt; + 788
+	28  CoreFoundation                      0x00000001827062b8 CFRunLoopRunSpecific + 444
+	29  GraphicsServices                    0x00000001841ba198 GSEventRunModal + 180
+	30  UIKit                               0x000000018874d7fc &lt;redacted&gt; + 684
+	31  UIKit                               0x0000000188748534 UIApplicationMain + 208
+	32  XCTRunner                           0x00000001000b03d4 XCTRunner + 33748
+	33  libdyld.dylib                       0x00000001816e95b8 &lt;redacted&gt; + 4
+)</string>
+						<key>TestCase</key>
+						<string>-[CCISDKStartingTheSDK asAPublisherIWantToStartTheSDKWithAppIDAndUserID]</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGISJYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBgZVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFRYU
+						FxQUW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACE///////////EACA
+						A4AAXxBDZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvJTND
+						dW5rbm93biUzRdIaGxwdWiRjbGFz
+						c25hbWVYJGNsYXNzZXNfEBdEVlRU
+						ZXh0RG9jdW1lbnRMb2NhdGlvbqMe
+						HyBfEBdEVlRUZXh0RG9jdW1lbnRM
+						b2NhdGlvbl8QE0RWVERvY3VtZW50
+						TG9jYXRpb25YTlNPYmplY3RfEA9O
+						U0tleWVkQXJjaGl2ZXLRIyRUcm9v
+						dIABAAgAEQAaACMALQAyADcAPABC
+						AFcAYwB6AI8AowC2AL0A0ADaAO8B
+						AwEFAQ4BEAESARQBWgFfAWoBcwGN
+						AZEBqwHBAcoB3AHfAeQAAAAAAAAC
+						AQAAAAAAAAAlAAAAAAAAAAAAAAAA
+						AAAB5g==
+						</data>
+						<key>IssueType</key>
+						<string>Uncategorized</string>
+						<key>Message</key>
+						<string>failed: caught "Expecta Error", "/Users/titouanvanbelle/workspace/fyber/ios-sdk/FyberSDK/FyberSDKFunctionalTests/Classes/Steps/StartSteps.m:73 expected: a falsy value, got: 1, which is truthy"
+(
+	0   CoreFoundation                      0x000000018282d1d0 &lt;redacted&gt; + 148
+	1   libobjc.A.dylib                     0x000000018126455c objc_exception_throw + 56
+	2   CoreFoundation                      0x000000018282ce80 &lt;redacted&gt; + 0
+	3   FyberSDKFunctionalTests             0x0000000102007658 -[EXPExpect applyMatcher:to:] + 888
+	4   FyberSDKFunctionalTests             0x0000000102008f00 __36-[EXPExpect(beFalsyMatcher) beFalsy]_block_invoke_5 + 256
+	5   FyberSDKFunctionalTests             0x0000000101fd71a0 __18-[StartSteps then]_block_invoke + 404
+	6   FyberSDKFunctionalTests             0x0000000101fe8cc0 -[CCIStepsManager executeStep:inTestCase:] + 740
+	7   FyberSDKFunctionalTests             0x0000000101fed918 executeSteps + 276
+	8   FyberSDKFunctionalTests             0x0000000101fedc68 __executeScenario_block_invoke + 64
+	9   FyberSDKFunctionalTests             0x0000000101fea804 -[Cucumberish executeAroundHocksWithScenario:executionBlock:] + 904
+	10  FyberSDKFunctionalTests             0x0000000101fec4a8 executeScenario + 1460
+	11  CoreFoundation                      0x0000000182833150 &lt;redacted&gt; + 144
+	12  CoreFoundation                      0x0000000182725eac &lt;redacted&gt; + 284
+	13  XCTest                              0x000000010017e0a8 __24-[XCTestCase invokeTest]_block_invoke_2 + 388
+	14  XCTest                              0x00000001001b2c98 -[XCTestContext performInScope:] + 208
+	15  XCTest                              0x000000010017df0c -[XCTestCase invokeTest] + 268
+	16  XCTest                              0x000000010017e5e0 -[XCTestCase performTest:] + 460
+	17  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	18  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	19  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	20  XCTest                              0x0000000100167740 __25-[XCTestDriver _runSuite]_block_invoke + 56
+	21  XCTest                              0x0000000100188260 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 528
+	22  XCTest                              0x00000001001675d8 -[XCTestDriver _runSuite] + 460
+	23  XCTest                              0x00000001001683b4 -[XCTestDriver _checkForTestManager] + 296
+	24  XCTest                              0x00000001001b4164 _XCTestMain + 628
+	25  CoreFoundation                      0x00000001827daa44 &lt;redacted&gt; + 20
+	26  CoreFoundation                      0x00000001827da240 &lt;redacted&gt; + 288
+	27  CoreFoundation                      0x00000001827d8094 &lt;redacted&gt; + 788
+	28  CoreFoundation                      0x00000001827062b8 CFRunLoopRunSpecific + 444
+	29  GraphicsServices                    0x00000001841ba198 GSEventRunModal + 180
+	30  UIKit                               0x000000018874d7fc &lt;redacted&gt; + 684
+	31  UIKit                               0x0000000188748534 UIApplicationMain + 208
+	32  XCTRunner                           0x00000001000b03d4 XCTRunner + 33748
+	33  libdyld.dylib                       0x00000001816e95b8 &lt;redacted&gt; + 4
+)</string>
+						<key>TestCase</key>
+						<string>-[CCISDKStartingTheSDK asAPublisherIWantToStartTheSDKWithAppIDUserIDAndASecurityToken]</string>
+					</dict>
+				</array>
+				<key>TestSummaryPath</key>
+				<string>2_Test/action_TestSummaries.plist</string>
+				<key>TestsCount</key>
+				<integer>5</integer>
+				<key>TestsFailedCount</key>
+				<integer>3</integer>
+				<key>WarningCount</key>
+				<integer>0</integer>
+				<key>WarningSummaries</key>
+				<array/>
+			</dict>
+			<key>BuildResult</key>
+			<dict>
+				<key>AnalyzerWarningCount</key>
+				<integer>0</integer>
+				<key>AnalyzerWarningSummaries</key>
+				<array/>
+				<key>ErrorCount</key>
+				<integer>0</integer>
+				<key>ErrorSummaries</key>
+				<array/>
+				<key>LogPath</key>
+				<string>2_Test/build.xcactivitylog</string>
+				<key>Status</key>
+				<string>IDEActionResultStatus_Succeeded</string>
+				<key>TestFailureSummaries</key>
+				<array/>
+				<key>TestsCount</key>
+				<integer>0</integer>
+				<key>TestsFailedCount</key>
+				<integer>0</integer>
+				<key>WarningCount</key>
+				<integer>362</integer>
+				<key>WarningSummaries</key>
+				<array>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEAkQABABgAMQSoAA
+						EQcmXxBgZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvZnli
+						ZXItc2RrL0ZZQlJld2FyZGVkVmlk
+						ZW9WaWV3Q29udHJvbGxlci5t0h0e
+						HyBaJGNsYXNzbmFtZVgkY2xhc3Nl
+						c18QF0RWVFRleHREb2N1bWVudExv
+						Y2F0aW9uoyEiI18QF0RWVFRleHRE
+						b2N1bWVudExvY2F0aW9uXxATRFZU
+						RG9jdW1lbnRMb2NhdGlvblhOU09i
+						amVjdF8QD05TS2V5ZWRBcmNoaXZl
+						ctEmJ1Ryb290gAEACAARABoAIwAt
+						ADIANwA8AEIAVwBjAHoAjwCjALYA
+						vQDQANoA7wEDAQUBBwEJAQsBDQEP
+						AREBFAF3AXwBhwGQAaoBrgHIAd4B
+						5wH5AfwCAQAAAAAAAAIBAAAAAAAA
+						ACgAAAAAAAAAAAAAAAAAAAID
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'wantsFullScreenLayout' is deprecated: first deprecated in iOS 7.0</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACECEQABABgAMQ0oAA
+						ERXRXxBKZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvZnli
+						ZXItc2RrL0ZZQlRvYXN0Lm3SHR4f
+						IFokY2xhc3NuYW1lWCRjbGFzc2Vz
+						XxAXRFZUVGV4dERvY3VtZW50TG9j
+						YXRpb26jISIjXxAXRFZUVGV4dERv
+						Y3VtZW50TG9jYXRpb25fEBNEVlRE
+						b2N1bWVudExvY2F0aW9uWE5TT2Jq
+						ZWN0XxAPTlNLZXllZEFyY2hpdmVy
+						0SYnVHJvb3SAAQAIABEAGgAjAC0A
+						MgA3ADwAQgBXAGMAegCPAKMAtgC9
+						ANAA2gDvAQMBBQEHAQkBCwENAQ8B
+						EQEUAWEBZgFxAXoBlAGYAbIByAHR
+						AeMB5gHrAAAAAAAAAgEAAAAAAAAA
+						KAAAAAAAAAAAAAAAAAAAAe0=
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'sizeWithFont:constrainedToSize:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context:</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGIyRYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBobVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFBYX
+						GBcZW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEAEQAIADEFaAABEK
+						/18QWWZpbGU6Ly8vVXNlcnMvdGl0
+						b3VhbnZhbmJlbGxlL3dvcmtzcGFj
+						ZS9meWJlci9pb3Mtc2RrL2Z5YmVy
+						LXNkay9GWUJJbnRlcnN0aXRpYWxS
+						ZXNwb25zZS5t0hwdHh9aJGNsYXNz
+						bmFtZVgkY2xhc3Nlc18QF0RWVFRl
+						eHREb2N1bWVudExvY2F0aW9uoyAh
+						Il8QF0RWVFRleHREb2N1bWVudExv
+						Y2F0aW9uXxATRFZURG9jdW1lbnRM
+						b2NhdGlvblhOU09iamVjdF8QD05T
+						S2V5ZWRBcmNoaXZlctElJlRyb290
+						gAEACAARABoAIwAtADIANwA8AEIA
+						VwBjAHoAjwCjALYAvQDQANoA7wED
+						AQUBBwEJAQsBDQEPARIBbgFzAX4B
+						hwGhAaUBvwHVAd4B8AHzAfgAAAAA
+						AAACAQAAAAAAAAAnAAAAAAAAAAAA
+						AAAAAAAB+g==
+						</data>
+						<key>IssueType</key>
+						<string>User-Defined Issue</string>
+						<key>Message</key>
+						<string>Do we need this?</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEA0QABABgAMQZoAA
+						EQpjXxBcZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvZnli
+						ZXItc2RrL0ZZQk9mZmVyV2FsbFZp
+						ZXdDb250cm9sbGVyLm3SHR4fIFok
+						Y2xhc3NuYW1lWCRjbGFzc2VzXxAX
+						RFZUVGV4dERvY3VtZW50TG9jYXRp
+						b26jISIjXxAXRFZUVGV4dERvY3Vt
+						ZW50TG9jYXRpb25fEBNEVlREb2N1
+						bWVudExvY2F0aW9uWE5TT2JqZWN0
+						XxAPTlNLZXllZEFyY2hpdmVy0SYn
+						VHJvb3SAAQAIABEAGgAjAC0AMgA3
+						ADwAQgBXAGMAegCPAKMAtgC9ANAA
+						2gDvAQMBBQEHAQkBCwENAQ8BEQEU
+						AXMBeAGDAYwBpgGqAcQB2gHjAfUB
+						+AH9AAAAAAAAAgEAAAAAAAAAKAAA
+						AAAAAAAAAAAAAAAAAf8=
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEA0QABABgAMQn4AA
+						ERBNXxBcZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvZnli
+						ZXItc2RrL0ZZQk9mZmVyV2FsbFZp
+						ZXdDb250cm9sbGVyLm3SHR4fIFok
+						Y2xhc3NuYW1lWCRjbGFzc2VzXxAX
+						RFZUVGV4dERvY3VtZW50TG9jYXRp
+						b26jISIjXxAXRFZUVGV4dERvY3Vt
+						ZW50TG9jYXRpb25fEBNEVlREb2N1
+						bWVudExvY2F0aW9uWE5TT2JqZWN0
+						XxAPTlNLZXllZEFyY2hpdmVy0SYn
+						VHJvb3SAAQAIABEAGgAjAC0AMgA3
+						ADwAQgBXAGMAegCPAKMAtgC9ANAA
+						2gDvAQMBBQEHAQkBCwENAQ8BEQEU
+						AXMBeAGDAYwBpgGqAcQB2gHjAfUB
+						+AH9AAAAAAAAAgEAAAAAAAAAKAAA
+						AAAAAAAAAAAAAAAAAf8=
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEA0QABABgAMRAQ6A
+						ABEemF8QXGZpbGU6Ly8vVXNlcnMv
+						dGl0b3VhbnZhbmJlbGxlL3dvcmtz
+						cGFjZS9meWJlci9pb3Mtc2RrL2Z5
+						YmVyLXNkay9GWUJPZmZlcldhbGxW
+						aWV3Q29udHJvbGxlci5t0h0eHyBa
+						JGNsYXNzbmFtZVgkY2xhc3Nlc18Q
+						F0RWVFRleHREb2N1bWVudExvY2F0
+						aW9uoyEiI18QF0RWVFRleHREb2N1
+						bWVudExvY2F0aW9uXxATRFZURG9j
+						dW1lbnRMb2NhdGlvblhOU09iamVj
+						dF8QD05TS2V5ZWRBcmNoaXZlctEm
+						J1Ryb290gAEACAARABoAIwAtADIA
+						NwA8AEIAVwBjAHoAjwCjALYAvQDQ
+						ANoA7wEDAQUBBwEJAQsBDQEQARIB
+						FQF0AXkBhAGNAacBqwHFAdsB5AH2
+						AfkB/gAAAAAAAAIBAAAAAAAAACgA
+						AAAAAAAAAAAAAAAAAAIA
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEAkQABABgAMQSoAA
+						EQcmXxBgZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvZnli
+						ZXItc2RrL0ZZQlJld2FyZGVkVmlk
+						ZW9WaWV3Q29udHJvbGxlci5t0h0e
+						HyBaJGNsYXNzbmFtZVgkY2xhc3Nl
+						c18QF0RWVFRleHREb2N1bWVudExv
+						Y2F0aW9uoyEiI18QF0RWVFRleHRE
+						b2N1bWVudExvY2F0aW9uXxATRFZU
+						RG9jdW1lbnRMb2NhdGlvblhOU09i
+						amVjdF8QD05TS2V5ZWRBcmNoaXZl
+						ctEmJ1Ryb290gAEACAARABoAIwAt
+						ADIANwA8AEIAVwBjAHoAjwCjALYA
+						vQDQANoA7wEDAQUBBwEJAQsBDQEP
+						AREBFAF3AXwBhwGQAaoBrgHIAd4B
+						5wH5AfwCAQAAAAAAAAIBAAAAAAAA
+						ACgAAAAAAAAAAAAAAAAAAAID
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'wantsFullScreenLayout' is deprecated: first deprecated in iOS 7.0</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACECEQABABgAMQ0oAA
+						ERXRXxBKZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvZnli
+						ZXItc2RrL0ZZQlRvYXN0Lm3SHR4f
+						IFokY2xhc3NuYW1lWCRjbGFzc2Vz
+						XxAXRFZUVGV4dERvY3VtZW50TG9j
+						YXRpb26jISIjXxAXRFZUVGV4dERv
+						Y3VtZW50TG9jYXRpb25fEBNEVlRE
+						b2N1bWVudExvY2F0aW9uWE5TT2Jq
+						ZWN0XxAPTlNLZXllZEFyY2hpdmVy
+						0SYnVHJvb3SAAQAIABEAGgAjAC0A
+						MgA3ADwAQgBXAGMAegCPAKMAtgC9
+						ANAA2gDvAQMBBQEHAQkBCwENAQ8B
+						EQEUAWEBZgFxAXoBlAGYAbIByAHR
+						AeMB5gHrAAAAAAAAAgEAAAAAAAAA
+						KAAAAAAAAAAAAAAAAAAAAe0=
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'sizeWithFont:constrainedToSize:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context:</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGIyRYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBobVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFBYX
+						GBcZW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEAEQAIADEFaAABEK
+						/18QWWZpbGU6Ly8vVXNlcnMvdGl0
+						b3VhbnZhbmJlbGxlL3dvcmtzcGFj
+						ZS9meWJlci9pb3Mtc2RrL2Z5YmVy
+						LXNkay9GWUJJbnRlcnN0aXRpYWxS
+						ZXNwb25zZS5t0hwdHh9aJGNsYXNz
+						bmFtZVgkY2xhc3Nlc18QF0RWVFRl
+						eHREb2N1bWVudExvY2F0aW9uoyAh
+						Il8QF0RWVFRleHREb2N1bWVudExv
+						Y2F0aW9uXxATRFZURG9jdW1lbnRM
+						b2NhdGlvblhOU09iamVjdF8QD05T
+						S2V5ZWRBcmNoaXZlctElJlRyb290
+						gAEACAARABoAIwAtADIANwA8AEIA
+						VwBjAHoAjwCjALYAvQDQANoA7wED
+						AQUBBwEJAQsBDQEPARIBbgFzAX4B
+						hwGhAaUBvwHVAd4B8AHzAfgAAAAA
+						AAACAQAAAAAAAAAnAAAAAAAAAAAA
+						AAAAAAAB+g==
+						</data>
+						<key>IssueType</key>
+						<string>User-Defined Issue</string>
+						<key>Message</key>
+						<string>Do we need this?</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEA0QABABgAMQZoAA
+						EQpjXxBcZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvZnli
+						ZXItc2RrL0ZZQk9mZmVyV2FsbFZp
+						ZXdDb250cm9sbGVyLm3SHR4fIFok
+						Y2xhc3NuYW1lWCRjbGFzc2VzXxAX
+						RFZUVGV4dERvY3VtZW50TG9jYXRp
+						b26jISIjXxAXRFZUVGV4dERvY3Vt
+						ZW50TG9jYXRpb25fEBNEVlREb2N1
+						bWVudExvY2F0aW9uWE5TT2JqZWN0
+						XxAPTlNLZXllZEFyY2hpdmVy0SYn
+						VHJvb3SAAQAIABEAGgAjAC0AMgA3
+						ADwAQgBXAGMAegCPAKMAtgC9ANAA
+						2gDvAQMBBQEHAQkBCwENAQ8BEQEU
+						AXMBeAGDAYwBpgGqAcQB2gHjAfUB
+						+AH9AAAAAAAAAgEAAAAAAAAAKAAA
+						AAAAAAAAAAAAAAAAAf8=
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEA0QABABgAMQn4AA
+						ERBNXxBcZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvZnli
+						ZXItc2RrL0ZZQk9mZmVyV2FsbFZp
+						ZXdDb250cm9sbGVyLm3SHR4fIFok
+						Y2xhc3NuYW1lWCRjbGFzc2VzXxAX
+						RFZUVGV4dERvY3VtZW50TG9jYXRp
+						b26jISIjXxAXRFZUVGV4dERvY3Vt
+						ZW50TG9jYXRpb25fEBNEVlREb2N1
+						bWVudExvY2F0aW9uWE5TT2JqZWN0
+						XxAPTlNLZXllZEFyY2hpdmVy0SYn
+						VHJvb3SAAQAIABEAGgAjAC0AMgA3
+						ADwAQgBXAGMAegCPAKMAtgC9ANAA
+						2gDvAQMBBQEHAQkBCwENAQ8BEQEU
+						AXMBeAGDAYwBpgGqAcQB2gHjAfUB
+						+AH9AAAAAAAAAgEAAAAAAAAAKAAA
+						AAAAAAAAAAAAAAAAAf8=
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEA0QABABgAMRAQ6A
+						ABEemF8QXGZpbGU6Ly8vVXNlcnMv
+						dGl0b3VhbnZhbmJlbGxlL3dvcmtz
+						cGFjZS9meWJlci9pb3Mtc2RrL2Z5
+						YmVyLXNkay9GWUJPZmZlcldhbGxW
+						aWV3Q29udHJvbGxlci5t0h0eHyBa
+						JGNsYXNzbmFtZVgkY2xhc3Nlc18Q
+						F0RWVFRleHREb2N1bWVudExvY2F0
+						aW9uoyEiI18QF0RWVFRleHREb2N1
+						bWVudExvY2F0aW9uXxATRFZURG9j
+						dW1lbnRMb2NhdGlvblhOU09iamVj
+						dF8QD05TS2V5ZWRBcmNoaXZlctEm
+						J1Ryb290gAEACAARABoAIwAtADIA
+						NwA8AEIAVwBjAHoAjwCjALYAvQDQ
+						ANoA7wEDAQUBBwEJAQsBDQEQARIB
+						FQF0AXkBhAGNAacBqwHFAdsB5AH2
+						AfkB/gAAAAAAAAIBAAAAAAAAACgA
+						AAAAAAAAAAAAAAAAAAIA
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>IssueType</key>
+						<string>Apple LLVM 8.0 Warning</string>
+						<key>Message</key>
+						<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+						<key>Target</key>
+						<string>FyberSDK</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGJCVYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBscVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFhcY
+						GRgaW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACEBwQABABgAMQZ4AA
+						EQz8XxB2ZmlsZTovLy9Vc2Vycy90
+						aXRvdWFudmFuYmVsbGUvd29ya3Nw
+						YWNlL2Z5YmVyL2lvcy1zZGsvRnli
+						ZXJTREsvRnliZXJUZXN0QXBwL0Ns
+						YXNzZXMvRllCT2ZmZXJXYWxsTGF1
+						bmNoVmlld0NvbnRyb2xsZXIubdId
+						Hh8gWiRjbGFzc25hbWVYJGNsYXNz
+						ZXNfEBdEVlRUZXh0RG9jdW1lbnRM
+						b2NhdGlvbqMhIiNfEBdEVlRUZXh0
+						RG9jdW1lbnRMb2NhdGlvbl8QE0RW
+						VERvY3VtZW50TG9jYXRpb25YTlNP
+						YmplY3RfEA9OU0tleWVkQXJjaGl2
+						ZXLRJidUcm9vdIABAAgAEQAaACMA
+						LQAyADcAPABCAFcAYwB6AI8AowC2
+						AL0A0ADaAO8BAwEFAQcBCQELAQ0B
+						DwERARQBjQGSAZ0BpgHAAcQB3gH0
+						Af0CDwISAhcAAAAAAAACAQAAAAAA
+						AAAoAAAAAAAAAAAAAAAAAAACGQ==
+						</data>
+						<key>IssueType</key>
+						<string>Deprecations</string>
+						<key>Message</key>
+						<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+						<key>Target</key>
+						<string>FyberTestApp</string>
+					</dict>
+					<dict>
+						<key>DocumentLocationData</key>
+						<data>
+						YnBsaXN0MDDUAQIDBAUGIiNYJHZl
+						cnNpb25YJG9iamVjdHNZJGFyY2hp
+						dmVyVCR0b3ASAAGGoKQHCBkaVSRu
+						dWxs2gkKCwwNDg8QERITFBQVFRYX
+						GBcUW2RvY3VtZW50VVJMXxAUc3Rh
+						cnRpbmdDb2x1bW5OdW1iZXJfEBJl
+						bmRpbmdDb2x1bW5OdW1iZXJfEBFj
+						aGFyYWN0ZXJSYW5nZUxlbl8QEGxv
+						Y2F0aW9uRW5jb2RpbmdWJGNsYXNz
+						XxAQZW5kaW5nTGluZU51bWJlcll0
+						aW1lc3RhbXBfEBJzdGFydGluZ0xp
+						bmVOdW1iZXJfEBFjaGFyYWN0ZXJS
+						YW5nZUxvY4ACE///////////EACA
+						AxAFgABfEHdmaWxlOi8vL1VzZXJz
+						L3RpdG91YW52YW5iZWxsZS93b3Jr
+						c3BhY2UvZnliZXIvaW9zLXNkay9p
+						b3MtdGVzdC1zdWl0ZS9SZXNvdXJj
+						ZXMvRllCSW50ZWdyYXRpb25BbmFs
+						eXplclZpZXdDb250cm9sbGVyLnhp
+						YtIbHB0eWiRjbGFzc25hbWVYJGNs
+						YXNzZXNfEBdEVlRUZXh0RG9jdW1l
+						bnRMb2NhdGlvbqMfICFfEBdEVlRU
+						ZXh0RG9jdW1lbnRMb2NhdGlvbl8Q
+						E0RWVERvY3VtZW50TG9jYXRpb25Y
+						TlNPYmplY3RfEA9OU0tleWVkQXJj
+						aGl2ZXLRJCVUcm9vdIABAAgAEQAa
+						ACMALQAyADcAPABCAFcAYwB6AI8A
+						owC2AL0A0ADaAO8BAwEFAQ4BEAES
+						ARQBFgGQAZUBoAGpAcMBxwHhAfcC
+						AAISAhUCGgAAAAAAAAIBAAAAAAAA
+						ACYAAAAAAAAAAAAAAAAAAAIc
+						</data>
+						<key>IssueType</key>
+						<string>Attribute Unavailable</string>
+						<key>Message</key>
+						<string>Automatic Preferred Max Layout Width before iOS 8.0</string>
+						<key>Target</key>
+						<string>FyberTestApp</string>
+					</dict>
+				</array>
+			</dict>
+			<key>EndedTime</key>
+			<date>2017-04-10T07:40:12Z</date>
+			<key>RunDestination</key>
+			<dict>
+				<key>LocalComputer</key>
+				<dict>
+					<key>BusSpeedInMHz</key>
+					<integer>100</integer>
+					<key>CPUCount</key>
+					<integer>1</integer>
+					<key>CPUKind</key>
+					<string>Intel Core i7</string>
+					<key>CPUSpeedInMHz</key>
+					<integer>3000</integer>
+					<key>Identifier</key>
+					<string>6C8054DF-29FE-549A-8BDF-C6E3BD4AD5FC</string>
+					<key>IsConcreteDevice</key>
+					<true/>
+					<key>LogicalCPUCoresPerPackage</key>
+					<integer>4</integer>
+					<key>ModelCode</key>
+					<string>MacBookPro11,1</string>
+					<key>ModelName</key>
+					<string>MacBook Pro</string>
+					<key>ModelUTI</key>
+					<string>com.apple.macbookpro-13-retina-display</string>
+					<key>Name</key>
+					<string>My Mac</string>
+					<key>NativeArchitecture</key>
+					<string>x86_64h</string>
+					<key>OperatingSystemVersion</key>
+					<string>10.12.3</string>
+					<key>OperatingSystemVersionWithBuildNumber</key>
+					<string>10.12.3 (16D32)</string>
+					<key>PhysicalCPUCoresPerPackage</key>
+					<integer>2</integer>
+					<key>Platform</key>
+					<dict>
+						<key>Identifier</key>
+						<string>com.apple.platform.macosx</string>
+						<key>Name</key>
+						<string>macOS</string>
+					</dict>
+					<key>RAMSizeInMegabytes</key>
+					<integer>8192</integer>
+				</dict>
+				<key>Name</key>
+				<string>tito</string>
+				<key>TargetArchitecture</key>
+				<string>arm64</string>
+				<key>TargetDevice</key>
+				<dict>
+					<key>Identifier</key>
+					<string>73363b7406eeb064e2d5ddec2667315d6110a16e</string>
+					<key>IsConcreteDevice</key>
+					<true/>
+					<key>ModelCode</key>
+					<string>iPhone9,3</string>
+					<key>ModelName</key>
+					<string>iPhone 7 (Model 1660, 1778, 1779, 1780)</string>
+					<key>ModelUTI</key>
+					<string>com.apple.iphone-7-1</string>
+					<key>Name</key>
+					<string>tito</string>
+					<key>NativeArchitecture</key>
+					<string>arm64</string>
+					<key>OperatingSystemVersion</key>
+					<string>10.2.1</string>
+					<key>OperatingSystemVersionWithBuildNumber</key>
+					<string>10.2.1 (14D27)</string>
+					<key>Platform</key>
+					<dict>
+						<key>Identifier</key>
+						<string>com.apple.platform.iphoneos</string>
+						<key>Name</key>
+						<string>iOS</string>
+					</dict>
+				</dict>
+				<key>TargetSDK</key>
+				<dict>
+					<key>Identifier</key>
+					<string>iphoneos10.2</string>
+					<key>IsInternal</key>
+					<false/>
+					<key>Name</key>
+					<string>iOS 10.2</string>
+					<key>OperatingSystemVersion</key>
+					<string>10.2</string>
+				</dict>
+			</dict>
+			<key>SchemeCommand</key>
+			<string>Test</string>
+			<key>SchemeTask</key>
+			<string>BuildAndAction</string>
+			<key>StartedTime</key>
+			<date>2017-04-10T07:38:36Z</date>
+			<key>Title</key>
+			<string>Testing workspace FyberSDK with scheme FyberSDKFunctionalTests</string>
+		</dict>
+	</array>
+	<key>AnalyzerWarningCount</key>
+	<integer>0</integer>
+	<key>CreatingWorkspaceFilePath</key>
+	<string>/Users/titouanvanbelle/workspace/fyber/ios-sdk/FyberSDK.xcworkspace</string>
+	<key>ErrorCount</key>
+	<integer>0</integer>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>Running</key>
+	<false/>
+	<key>TestFailureSummaries</key>
+	<array>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGISJYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBgZVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFRYUFxQUW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACE///////////EACA
+			A4AAXxBDZmlsZTovLy9Vc2Vycy90aXRvdWFudmFuYmVsbGUvd29y
+			a3NwYWNlL2Z5YmVyL2lvcy1zZGsvJTNDdW5rbm93biUzRdIaGxwd
+			WiRjbGFzc25hbWVYJGNsYXNzZXNfEBdEVlRUZXh0RG9jdW1lbnRM
+			b2NhdGlvbqMeHyBfEBdEVlRUZXh0RG9jdW1lbnRMb2NhdGlvbl8Q
+			E0RWVERvY3VtZW50TG9jYXRpb25YTlNPYmplY3RfEA9OU0tleWVk
+			QXJjaGl2ZXLRIyRUcm9vdIABAAgAEQAaACMALQAyADcAPABCAFcA
+			YwB6AI8AowC2AL0A0ADaAO8BAwEFAQ4BEAESARQBWgFfAWoBcwGN
+			AZEBqwHBAcoB3AHfAeQAAAAAAAACAQAAAAAAAAAlAAAAAAAAAAAA
+			AAAAAAAB5g==
+			</data>
+			<key>IssueType</key>
+			<string>Uncategorized</string>
+			<key>Message</key>
+			<string>failed: caught "Expecta Error", "/Users/titouanvanbelle/workspace/fyber/ios-sdk/FyberSDK/FyberSDKFunctionalTests/Classes/Steps/StartSteps.m:73 expected: a falsy value, got: 1, which is truthy"
+(
+	0   CoreFoundation                      0x000000018282d1d0 &lt;redacted&gt; + 148
+	1   libobjc.A.dylib                     0x000000018126455c objc_exception_throw + 56
+	2   CoreFoundation                      0x000000018282ce80 &lt;redacted&gt; + 0
+	3   FyberSDKFunctionalTests             0x0000000102007658 -[EXPExpect applyMatcher:to:] + 888
+	4   FyberSDKFunctionalTests             0x0000000102008f00 __36-[EXPExpect(beFalsyMatcher) beFalsy]_block_invoke_5 + 256
+	5   FyberSDKFunctionalTests             0x0000000101fd71a0 __18-[StartSteps then]_block_invoke + 404
+	6   FyberSDKFunctionalTests             0x0000000101fe8cc0 -[CCIStepsManager executeStep:inTestCase:] + 740
+	7   FyberSDKFunctionalTests             0x0000000101fed918 executeSteps + 276
+	8   FyberSDKFunctionalTests             0x0000000101fedc68 __executeScenario_block_invoke + 64
+	9   FyberSDKFunctionalTests             0x0000000101fea804 -[Cucumberish executeAroundHocksWithScenario:executionBlock:] + 904
+	10  FyberSDKFunctionalTests             0x0000000101fec4a8 executeScenario + 1460
+	11  CoreFoundation                      0x0000000182833150 &lt;redacted&gt; + 144
+	12  CoreFoundation                      0x0000000182725eac &lt;redacted&gt; + 284
+	13  XCTest                              0x000000010017e0a8 __24-[XCTestCase invokeTest]_block_invoke_2 + 388
+	14  XCTest                              0x00000001001b2c98 -[XCTestContext performInScope:] + 208
+	15  XCTest                              0x000000010017df0c -[XCTestCase invokeTest] + 268
+	16  XCTest                              0x000000010017e5e0 -[XCTestCase performTest:] + 460
+	17  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	18  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	19  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	20  XCTest                              0x0000000100167740 __25-[XCTestDriver _runSuite]_block_invoke + 56
+	21  XCTest                              0x0000000100188260 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 528
+	22  XCTest                              0x00000001001675d8 -[XCTestDriver _runSuite] + 460
+	23  XCTest                              0x00000001001683b4 -[XCTestDriver _checkForTestManager] + 296
+	24  XCTest                              0x00000001001b4164 _XCTestMain + 628
+	25  CoreFoundation                      0x00000001827daa44 &lt;redacted&gt; + 20
+	26  CoreFoundation                      0x00000001827da240 &lt;redacted&gt; + 288
+	27  CoreFoundation                      0x00000001827d8094 &lt;redacted&gt; + 788
+	28  CoreFoundation                      0x00000001827062b8 CFRunLoopRunSpecific + 444
+	29  GraphicsServices                    0x00000001841ba198 GSEventRunModal + 180
+	30  UIKit                               0x000000018874d7fc &lt;redacted&gt; + 684
+	31  UIKit                               0x0000000188748534 UIApplicationMain + 208
+	32  XCTRunner                           0x00000001000b03d4 XCTRunner + 33748
+	33  libdyld.dylib                       0x00000001816e95b8 &lt;redacted&gt; + 4
+)</string>
+			<key>TestCase</key>
+			<string>-[CCISDKStartingTheSDK asAPublisherIWantToStartTheSDKWithAppIDOnly]</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGISJYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBgZVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFRYUFxQUW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACE///////////EACA
+			A4AAXxBDZmlsZTovLy9Vc2Vycy90aXRvdWFudmFuYmVsbGUvd29y
+			a3NwYWNlL2Z5YmVyL2lvcy1zZGsvJTNDdW5rbm93biUzRdIaGxwd
+			WiRjbGFzc25hbWVYJGNsYXNzZXNfEBdEVlRUZXh0RG9jdW1lbnRM
+			b2NhdGlvbqMeHyBfEBdEVlRUZXh0RG9jdW1lbnRMb2NhdGlvbl8Q
+			E0RWVERvY3VtZW50TG9jYXRpb25YTlNPYmplY3RfEA9OU0tleWVk
+			QXJjaGl2ZXLRIyRUcm9vdIABAAgAEQAaACMALQAyADcAPABCAFcA
+			YwB6AI8AowC2AL0A0ADaAO8BAwEFAQ4BEAESARQBWgFfAWoBcwGN
+			AZEBqwHBAcoB3AHfAeQAAAAAAAACAQAAAAAAAAAlAAAAAAAAAAAA
+			AAAAAAAB5g==
+			</data>
+			<key>IssueType</key>
+			<string>Uncategorized</string>
+			<key>Message</key>
+			<string>failed: caught "Expecta Error", "/Users/titouanvanbelle/workspace/fyber/ios-sdk/FyberSDK/FyberSDKFunctionalTests/Classes/Steps/StartSteps.m:73 expected: a falsy value, got: 1, which is truthy"
+(
+	0   CoreFoundation                      0x000000018282d1d0 &lt;redacted&gt; + 148
+	1   libobjc.A.dylib                     0x000000018126455c objc_exception_throw + 56
+	2   CoreFoundation                      0x000000018282ce80 &lt;redacted&gt; + 0
+	3   FyberSDKFunctionalTests             0x0000000102007658 -[EXPExpect applyMatcher:to:] + 888
+	4   FyberSDKFunctionalTests             0x0000000102008f00 __36-[EXPExpect(beFalsyMatcher) beFalsy]_block_invoke_5 + 256
+	5   FyberSDKFunctionalTests             0x0000000101fd71a0 __18-[StartSteps then]_block_invoke + 404
+	6   FyberSDKFunctionalTests             0x0000000101fe8cc0 -[CCIStepsManager executeStep:inTestCase:] + 740
+	7   FyberSDKFunctionalTests             0x0000000101fed918 executeSteps + 276
+	8   FyberSDKFunctionalTests             0x0000000101fedc68 __executeScenario_block_invoke + 64
+	9   FyberSDKFunctionalTests             0x0000000101fea804 -[Cucumberish executeAroundHocksWithScenario:executionBlock:] + 904
+	10  FyberSDKFunctionalTests             0x0000000101fec4a8 executeScenario + 1460
+	11  CoreFoundation                      0x0000000182833150 &lt;redacted&gt; + 144
+	12  CoreFoundation                      0x0000000182725eac &lt;redacted&gt; + 284
+	13  XCTest                              0x000000010017e0a8 __24-[XCTestCase invokeTest]_block_invoke_2 + 388
+	14  XCTest                              0x00000001001b2c98 -[XCTestContext performInScope:] + 208
+	15  XCTest                              0x000000010017df0c -[XCTestCase invokeTest] + 268
+	16  XCTest                              0x000000010017e5e0 -[XCTestCase performTest:] + 460
+	17  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	18  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	19  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	20  XCTest                              0x0000000100167740 __25-[XCTestDriver _runSuite]_block_invoke + 56
+	21  XCTest                              0x0000000100188260 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 528
+	22  XCTest                              0x00000001001675d8 -[XCTestDriver _runSuite] + 460
+	23  XCTest                              0x00000001001683b4 -[XCTestDriver _checkForTestManager] + 296
+	24  XCTest                              0x00000001001b4164 _XCTestMain + 628
+	25  CoreFoundation                      0x00000001827daa44 &lt;redacted&gt; + 20
+	26  CoreFoundation                      0x00000001827da240 &lt;redacted&gt; + 288
+	27  CoreFoundation                      0x00000001827d8094 &lt;redacted&gt; + 788
+	28  CoreFoundation                      0x00000001827062b8 CFRunLoopRunSpecific + 444
+	29  GraphicsServices                    0x00000001841ba198 GSEventRunModal + 180
+	30  UIKit                               0x000000018874d7fc &lt;redacted&gt; + 684
+	31  UIKit                               0x0000000188748534 UIApplicationMain + 208
+	32  XCTRunner                           0x00000001000b03d4 XCTRunner + 33748
+	33  libdyld.dylib                       0x00000001816e95b8 &lt;redacted&gt; + 4
+)</string>
+			<key>TestCase</key>
+			<string>-[CCISDKStartingTheSDK asAPublisherIWantToStartTheSDKWithAppIDAndUserID]</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGISJYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBgZVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFRYUFxQUW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACE///////////EACA
+			A4AAXxBDZmlsZTovLy9Vc2Vycy90aXRvdWFudmFuYmVsbGUvd29y
+			a3NwYWNlL2Z5YmVyL2lvcy1zZGsvJTNDdW5rbm93biUzRdIaGxwd
+			WiRjbGFzc25hbWVYJGNsYXNzZXNfEBdEVlRUZXh0RG9jdW1lbnRM
+			b2NhdGlvbqMeHyBfEBdEVlRUZXh0RG9jdW1lbnRMb2NhdGlvbl8Q
+			E0RWVERvY3VtZW50TG9jYXRpb25YTlNPYmplY3RfEA9OU0tleWVk
+			QXJjaGl2ZXLRIyRUcm9vdIABAAgAEQAaACMALQAyADcAPABCAFcA
+			YwB6AI8AowC2AL0A0ADaAO8BAwEFAQ4BEAESARQBWgFfAWoBcwGN
+			AZEBqwHBAcoB3AHfAeQAAAAAAAACAQAAAAAAAAAlAAAAAAAAAAAA
+			AAAAAAAB5g==
+			</data>
+			<key>IssueType</key>
+			<string>Uncategorized</string>
+			<key>Message</key>
+			<string>failed: caught "Expecta Error", "/Users/titouanvanbelle/workspace/fyber/ios-sdk/FyberSDK/FyberSDKFunctionalTests/Classes/Steps/StartSteps.m:73 expected: a falsy value, got: 1, which is truthy"
+(
+	0   CoreFoundation                      0x000000018282d1d0 &lt;redacted&gt; + 148
+	1   libobjc.A.dylib                     0x000000018126455c objc_exception_throw + 56
+	2   CoreFoundation                      0x000000018282ce80 &lt;redacted&gt; + 0
+	3   FyberSDKFunctionalTests             0x0000000102007658 -[EXPExpect applyMatcher:to:] + 888
+	4   FyberSDKFunctionalTests             0x0000000102008f00 __36-[EXPExpect(beFalsyMatcher) beFalsy]_block_invoke_5 + 256
+	5   FyberSDKFunctionalTests             0x0000000101fd71a0 __18-[StartSteps then]_block_invoke + 404
+	6   FyberSDKFunctionalTests             0x0000000101fe8cc0 -[CCIStepsManager executeStep:inTestCase:] + 740
+	7   FyberSDKFunctionalTests             0x0000000101fed918 executeSteps + 276
+	8   FyberSDKFunctionalTests             0x0000000101fedc68 __executeScenario_block_invoke + 64
+	9   FyberSDKFunctionalTests             0x0000000101fea804 -[Cucumberish executeAroundHocksWithScenario:executionBlock:] + 904
+	10  FyberSDKFunctionalTests             0x0000000101fec4a8 executeScenario + 1460
+	11  CoreFoundation                      0x0000000182833150 &lt;redacted&gt; + 144
+	12  CoreFoundation                      0x0000000182725eac &lt;redacted&gt; + 284
+	13  XCTest                              0x000000010017e0a8 __24-[XCTestCase invokeTest]_block_invoke_2 + 388
+	14  XCTest                              0x00000001001b2c98 -[XCTestContext performInScope:] + 208
+	15  XCTest                              0x000000010017df0c -[XCTestCase invokeTest] + 268
+	16  XCTest                              0x000000010017e5e0 -[XCTestCase performTest:] + 460
+	17  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	18  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	19  XCTest                              0x000000010017ba5c -[XCTestSuite performTest:] + 428
+	20  XCTest                              0x0000000100167740 __25-[XCTestDriver _runSuite]_block_invoke + 56
+	21  XCTest                              0x0000000100188260 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 528
+	22  XCTest                              0x00000001001675d8 -[XCTestDriver _runSuite] + 460
+	23  XCTest                              0x00000001001683b4 -[XCTestDriver _checkForTestManager] + 296
+	24  XCTest                              0x00000001001b4164 _XCTestMain + 628
+	25  CoreFoundation                      0x00000001827daa44 &lt;redacted&gt; + 20
+	26  CoreFoundation                      0x00000001827da240 &lt;redacted&gt; + 288
+	27  CoreFoundation                      0x00000001827d8094 &lt;redacted&gt; + 788
+	28  CoreFoundation                      0x00000001827062b8 CFRunLoopRunSpecific + 444
+	29  GraphicsServices                    0x00000001841ba198 GSEventRunModal + 180
+	30  UIKit                               0x000000018874d7fc &lt;redacted&gt; + 684
+	31  UIKit                               0x0000000188748534 UIApplicationMain + 208
+	32  XCTRunner                           0x00000001000b03d4 XCTRunner + 33748
+	33  libdyld.dylib                       0x00000001816e95b8 &lt;redacted&gt; + 4
+)</string>
+			<key>TestCase</key>
+			<string>-[CCISDKStartingTheSDK asAPublisherIWantToStartTheSDKWithAppIDUserIDAndASecurityToken]</string>
+		</dict>
+	</array>
+	<key>TestSummaryPath</key>
+	<string>/Users/titouanvanbelle/workspace/fyber/ios-sdk/build_reports/functional_tests/results/TestSummaries.plist</string>
+	<key>TestsCount</key>
+	<integer>5</integer>
+	<key>TestsFailedCount</key>
+	<integer>3</integer>
+	<key>WarningCount</key>
+	<integer>9</integer>
+	<key>WarningSummaries</key>
+	<array>
+		<dict>
+			<key>IssueType</key>
+			<string>Apple LLVM 8.0 Warning</string>
+			<key>Message</key>
+			<string>Argument unused during compilation: '-fembed-bitcode-marker'</string>
+			<key>Target</key>
+			<string>FyberSDK</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBscVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFhcYGRgaW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACEAkQABABgAMQSoAA
+			EQcmXxBgZmlsZTovLy9Vc2Vycy90aXRvdWFudmFuYmVsbGUvd29y
+			a3NwYWNlL2Z5YmVyL2lvcy1zZGsvZnliZXItc2RrL0ZZQlJld2Fy
+			ZGVkVmlkZW9WaWV3Q29udHJvbGxlci5t0h0eHyBaJGNsYXNzbmFt
+			ZVgkY2xhc3Nlc18QF0RWVFRleHREb2N1bWVudExvY2F0aW9uoyEi
+			I18QF0RWVFRleHREb2N1bWVudExvY2F0aW9uXxATRFZURG9jdW1l
+			bnRMb2NhdGlvblhOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctEm
+			J1Ryb290gAEACAARABoAIwAtADIANwA8AEIAVwBjAHoAjwCjALYA
+			vQDQANoA7wEDAQUBBwEJAQsBDQEPAREBFAF3AXwBhwGQAaoBrgHI
+			Ad4B5wH5AfwCAQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAA
+			AAID
+			</data>
+			<key>IssueType</key>
+			<string>Deprecations</string>
+			<key>Message</key>
+			<string>'wantsFullScreenLayout' is deprecated: first deprecated in iOS 7.0</string>
+			<key>Target</key>
+			<string>FyberSDK</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBscVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFhcYGRgaW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACECEQABABgAMQ0oAA
+			ERXRXxBKZmlsZTovLy9Vc2Vycy90aXRvdWFudmFuYmVsbGUvd29y
+			a3NwYWNlL2Z5YmVyL2lvcy1zZGsvZnliZXItc2RrL0ZZQlRvYXN0
+			Lm3SHR4fIFokY2xhc3NuYW1lWCRjbGFzc2VzXxAXRFZUVGV4dERv
+			Y3VtZW50TG9jYXRpb26jISIjXxAXRFZUVGV4dERvY3VtZW50TG9j
+			YXRpb25fEBNEVlREb2N1bWVudExvY2F0aW9uWE5TT2JqZWN0XxAP
+			TlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3
+			ADwAQgBXAGMAegCPAKMAtgC9ANAA2gDvAQMBBQEHAQkBCwENAQ8B
+			EQEUAWEBZgFxAXoBlAGYAbIByAHRAeMB5gHrAAAAAAAAAgEAAAAA
+			AAAAKAAAAAAAAAAAAAAAAAAAAe0=
+			</data>
+			<key>IssueType</key>
+			<string>Deprecations</string>
+			<key>Message</key>
+			<string>'sizeWithFont:constrainedToSize:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context:</string>
+			<key>Target</key>
+			<string>FyberSDK</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGIyRYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBobVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFBYXGBcZW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACEAEQAIADEFaAABEK
+			/18QWWZpbGU6Ly8vVXNlcnMvdGl0b3VhbnZhbmJlbGxlL3dvcmtz
+			cGFjZS9meWJlci9pb3Mtc2RrL2Z5YmVyLXNkay9GWUJJbnRlcnN0
+			aXRpYWxSZXNwb25zZS5t0hwdHh9aJGNsYXNzbmFtZVgkY2xhc3Nl
+			c18QF0RWVFRleHREb2N1bWVudExvY2F0aW9uoyAhIl8QF0RWVFRl
+			eHREb2N1bWVudExvY2F0aW9uXxATRFZURG9jdW1lbnRMb2NhdGlv
+			blhOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctElJlRyb290gAEA
+			CAARABoAIwAtADIANwA8AEIAVwBjAHoAjwCjALYAvQDQANoA7wED
+			AQUBBwEJAQsBDQEPARIBbgFzAX4BhwGhAaUBvwHVAd4B8AHzAfgA
+			AAAAAAACAQAAAAAAAAAnAAAAAAAAAAAAAAAAAAAB+g==
+			</data>
+			<key>IssueType</key>
+			<string>User-Defined Issue</string>
+			<key>Message</key>
+			<string>Do we need this?</string>
+			<key>Target</key>
+			<string>FyberSDK</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBscVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFhcYGRgaW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACEA0QABABgAMQZoAA
+			EQpjXxBcZmlsZTovLy9Vc2Vycy90aXRvdWFudmFuYmVsbGUvd29y
+			a3NwYWNlL2Z5YmVyL2lvcy1zZGsvZnliZXItc2RrL0ZZQk9mZmVy
+			V2FsbFZpZXdDb250cm9sbGVyLm3SHR4fIFokY2xhc3NuYW1lWCRj
+			bGFzc2VzXxAXRFZUVGV4dERvY3VtZW50TG9jYXRpb26jISIjXxAX
+			RFZUVGV4dERvY3VtZW50TG9jYXRpb25fEBNEVlREb2N1bWVudExv
+			Y2F0aW9uWE5TT2JqZWN0XxAPTlNLZXllZEFyY2hpdmVy0SYnVHJv
+			b3SAAQAIABEAGgAjAC0AMgA3ADwAQgBXAGMAegCPAKMAtgC9ANAA
+			2gDvAQMBBQEHAQkBCwENAQ8BEQEUAXMBeAGDAYwBpgGqAcQB2gHj
+			AfUB+AH9AAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAf8=
+			</data>
+			<key>IssueType</key>
+			<string>Deprecations</string>
+			<key>Message</key>
+			<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+			<key>Target</key>
+			<string>FyberSDK</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBscVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFhcYGRgaW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACEA0QABABgAMQn4AA
+			ERBNXxBcZmlsZTovLy9Vc2Vycy90aXRvdWFudmFuYmVsbGUvd29y
+			a3NwYWNlL2Z5YmVyL2lvcy1zZGsvZnliZXItc2RrL0ZZQk9mZmVy
+			V2FsbFZpZXdDb250cm9sbGVyLm3SHR4fIFokY2xhc3NuYW1lWCRj
+			bGFzc2VzXxAXRFZUVGV4dERvY3VtZW50TG9jYXRpb26jISIjXxAX
+			RFZUVGV4dERvY3VtZW50TG9jYXRpb25fEBNEVlREb2N1bWVudExv
+			Y2F0aW9uWE5TT2JqZWN0XxAPTlNLZXllZEFyY2hpdmVy0SYnVHJv
+			b3SAAQAIABEAGgAjAC0AMgA3ADwAQgBXAGMAegCPAKMAtgC9ANAA
+			2gDvAQMBBQEHAQkBCwENAQ8BEQEUAXMBeAGDAYwBpgGqAcQB2gHj
+			AfUB+AH9AAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAf8=
+			</data>
+			<key>IssueType</key>
+			<string>Deprecations</string>
+			<key>Message</key>
+			<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+			<key>Target</key>
+			<string>FyberSDK</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBscVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFhcYGRgaW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACEA0QABABgAMRAQ6A
+			ABEemF8QXGZpbGU6Ly8vVXNlcnMvdGl0b3VhbnZhbmJlbGxlL3dv
+			cmtzcGFjZS9meWJlci9pb3Mtc2RrL2Z5YmVyLXNkay9GWUJPZmZl
+			cldhbGxWaWV3Q29udHJvbGxlci5t0h0eHyBaJGNsYXNzbmFtZVgk
+			Y2xhc3Nlc18QF0RWVFRleHREb2N1bWVudExvY2F0aW9uoyEiI18Q
+			F0RWVFRleHREb2N1bWVudExvY2F0aW9uXxATRFZURG9jdW1lbnRM
+			b2NhdGlvblhOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ry
+			b290gAEACAARABoAIwAtADIANwA8AEIAVwBjAHoAjwCjALYAvQDQ
+			ANoA7wEDAQUBBwEJAQsBDQEQARIBFQF0AXkBhAGNAacBqwHFAdsB
+			5AH2AfkB/gAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAIA
+			</data>
+			<key>IssueType</key>
+			<string>Deprecations</string>
+			<key>Message</key>
+			<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+			<key>Target</key>
+			<string>FyberSDK</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBscVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFhcYGRgaW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACEBwQABABgAMQZ4AA
+			EQz8XxB2ZmlsZTovLy9Vc2Vycy90aXRvdWFudmFuYmVsbGUvd29y
+			a3NwYWNlL2Z5YmVyL2lvcy1zZGsvRnliZXJTREsvRnliZXJUZXN0
+			QXBwL0NsYXNzZXMvRllCT2ZmZXJXYWxsTGF1bmNoVmlld0NvbnRy
+			b2xsZXIubdIdHh8gWiRjbGFzc25hbWVYJGNsYXNzZXNfEBdEVlRU
+			ZXh0RG9jdW1lbnRMb2NhdGlvbqMhIiNfEBdEVlRUZXh0RG9jdW1l
+			bnRMb2NhdGlvbl8QE0RWVERvY3VtZW50TG9jYXRpb25YTlNPYmpl
+			Y3RfEA9OU0tleWVkQXJjaGl2ZXLRJidUcm9vdIABAAgAEQAaACMA
+			LQAyADcAPABCAFcAYwB6AI8AowC2AL0A0ADaAO8BAwEFAQcBCQEL
+			AQ0BDwERARQBjQGSAZ0BpgHAAcQB3gH0Af0CDwISAhcAAAAAAAAC
+			AQAAAAAAAAAoAAAAAAAAAAAAAAAAAAACGQ==
+			</data>
+			<key>IssueType</key>
+			<string>Deprecations</string>
+			<key>Message</key>
+			<string>'showCloseButtonOnLoad' is deprecated: This property is deprecated in SDK 8.3.1</string>
+			<key>Target</key>
+			<string>FyberTestApp</string>
+		</dict>
+		<dict>
+			<key>DocumentLocationData</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGIiNYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKQHCBkaVSRudWxs2gkKCwwNDg8QERIT
+			FBQVFRYXGBcUW2RvY3VtZW50VVJMXxAUc3RhcnRpbmdDb2x1bW5O
+			dW1iZXJfEBJlbmRpbmdDb2x1bW5OdW1iZXJfEBFjaGFyYWN0ZXJS
+			YW5nZUxlbl8QEGxvY2F0aW9uRW5jb2RpbmdWJGNsYXNzXxAQZW5k
+			aW5nTGluZU51bWJlcll0aW1lc3RhbXBfEBJzdGFydGluZ0xpbmVO
+			dW1iZXJfEBFjaGFyYWN0ZXJSYW5nZUxvY4ACE///////////EACA
+			AxAFgABfEHdmaWxlOi8vL1VzZXJzL3RpdG91YW52YW5iZWxsZS93
+			b3Jrc3BhY2UvZnliZXIvaW9zLXNkay9pb3MtdGVzdC1zdWl0ZS9S
+			ZXNvdXJjZXMvRllCSW50ZWdyYXRpb25BbmFseXplclZpZXdDb250
+			cm9sbGVyLnhpYtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNfEBdE
+			VlRUZXh0RG9jdW1lbnRMb2NhdGlvbqMfICFfEBdEVlRUZXh0RG9j
+			dW1lbnRMb2NhdGlvbl8QE0RWVERvY3VtZW50TG9jYXRpb25YTlNP
+			YmplY3RfEA9OU0tleWVkQXJjaGl2ZXLRJCVUcm9vdIABAAgAEQAa
+			ACMALQAyADcAPABCAFcAYwB6AI8AowC2AL0A0ADaAO8BAwEFAQ4B
+			EAESARQBFgGQAZUBoAGpAcMBxwHhAfcCAAISAhUCGgAAAAAAAAIB
+			AAAAAAAAACYAAAAAAAAAAAAAAAAAAAIc
+			</data>
+			<key>IssueType</key>
+			<string>Attribute Unavailable</string>
+			<key>Message</key>
+			<string>Automatic Preferred Max Layout Width before iOS 8.0</string>
+			<key>Target</key>
+			<string>FyberTestApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

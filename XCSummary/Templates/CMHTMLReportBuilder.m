@@ -73,31 +73,26 @@
     [self.resultString appendString:header];
 }
 
-- (void)appendTests:(NSArray *)tests indentation:(CGFloat)indentation
+- (void)appendTests:(NSArray *)tests
 {
     [tests enumerateObjectsUsingBlock:^(CMTest * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
-        [self _appendTestCase:obj indentation:indentation];
-        if (obj.subTests.count > 0)
-        {
-            [self appendTests:obj.subTests indentation:indentation + 50];
-        }
-        else
-        {
-            if (self.showSuccessTests == NO)
-            {
-                if (obj.status == CMTestStatusFailure)
-                {
-                    [self _appendActivities:obj.activities indentation:indentation + 50];
+        [self _appendTestCase:obj];
+
+        if (obj.subTests.count > 0) {
+            [self appendTests:obj.subTests];
+        } else {
+            if (self.showSuccessTests == NO) {
+                if (obj.status == CMTestStatusFailure) {
+                    [self _appendActivitiesForTest:obj];
                 }
-            }
-            else
-            {
-                [self _appendActivities:obj.activities indentation:indentation + 50];
+            } else {
+                [self _appendActivitiesForTest:obj];
             }
         }
     }];
 }
+
 - (NSString *)build
 {
     NSString *templateFormat = [self _decodeTemplateWithName:Template];
@@ -113,24 +108,39 @@
     return format;
 }
 
-- (void)_appendTestCase:(CMTest *)testCase indentation:(CGFloat)indentation
+- (void)_appendTestCase:(CMTest *)testCase
 {
-    NSString *templateFormat = testCase.status == CMTestStatusFailure ?
-    [self _decodeTemplateWithName:TestCaseTemplateFailed] :
-    [self _decodeTemplateWithName:TestCaseTemplate];
-    NSString *composedString = [NSString stringWithFormat:templateFormat, indentation, @"px", testCase.testName, testCase.duration];
+    NSString *templateFormat;
+    NSString *composedString;
+
+    if (testCase.status == CMTestStatusFailure) {
+        templateFormat = [self _decodeTemplateWithName:TestCaseTemplateFailed];
+        composedString = [NSString stringWithFormat:templateFormat, testCase.testSummaryGUID, testCase.testName, testCase.duration];
+    } else {
+        templateFormat = [self _decodeTemplateWithName:TestCaseTemplate];
+        composedString = [NSString stringWithFormat:templateFormat, testCase.testName, testCase.duration];
+    }
+
     [self.resultString appendString:composedString];
 }
 
-- (void)_appendActivities:(NSArray *)activities indentation:(CGFloat)indentation
+- (void)_appendActivitiesForTest:(CMTest *)test
+{
+    NSString *startTag = [NSString stringWithFormat:@"<div id=\"%@\" style=\"display:none;\">", test.testSummaryGUID];
+    [self.resultString appendString:startTag];
+    [self _appendActivities:test.activities];
+    [self.resultString appendString:@"</div>"];
+}
+
+- (void)_appendActivities:(NSArray <CMActivitySummary *> *)activities
 {
     [activities enumerateObjectsUsingBlock:^(CMActivitySummary * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [self _appendActivity:obj indentation:indentation];
-        [self _appendActivities:obj.subActivities indentation:indentation + 50];
+        [self _appendActivity:obj];
+        [self _appendActivities:obj.subActivities];
     }];
 }
 
-- (void)_appendActivity:(CMActivitySummary *)activity indentation:(CGFloat)indentation
+- (void)_appendActivity:(CMActivitySummary *)activity
 {
     NSString *templateFormat = nil;
     NSString *composedString = nil;
@@ -143,12 +153,12 @@
         [self.fileManager copyItemAtPath:fullPath toPath:[self.htmlResourcePath stringByAppendingPathComponent:imageName] error:nil];
         
         NSString *localImageName = [NSString stringWithFormat:@"resources/Screenshot_%@.png", activity.uuid.UUIDString];
-        composedString = [NSString stringWithFormat:templateFormat, indentation, @"px", activity.title, activity.finishTimeInterval - activity.startTimeInterval, localImageName];
+        composedString = [NSString stringWithFormat:templateFormat, activity.title, activity.finishTimeInterval - activity.startTimeInterval, activity.uuid.UUIDString, activity.uuid.UUIDString, localImageName];
     }
     else
     {
         templateFormat = [self _decodeTemplateWithName:ActivityTemplateWithoutImage];
-        composedString = [NSString stringWithFormat:templateFormat, indentation, @"px", activity.title, activity.finishTimeInterval - activity.startTimeInterval];
+        composedString = [NSString stringWithFormat:templateFormat, activity.title, activity.finishTimeInterval - activity.startTimeInterval];
     }
     
     [self.resultString appendString:composedString];
