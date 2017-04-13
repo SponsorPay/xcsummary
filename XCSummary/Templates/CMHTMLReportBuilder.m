@@ -31,8 +31,10 @@
 - (instancetype)initWithAttachmentsPath:(NSString *)path
                             resultsPath:(NSString *)resultsPath
                        showSuccessTests:(BOOL)showSuccessTests
+                           activityLogs:(NSString *)activityLogs
 {
     self = [super init];
+
     if (self)
     {
         _fileManager = [NSFileManager defaultManager];
@@ -42,7 +44,11 @@
         _resultString = [NSMutableString new];
         _showSuccessTests = showSuccessTests;
         [self _prepareResourceFolder];
+
+        NSString *logFile = [_htmlResourcePath stringByAppendingPathComponent:@"activityLogs.txt"];
+        [activityLogs writeToFile:logFile atomically:YES encoding:NSUTF8StringEncoding error:nil];
     }
+
     return self;
 }
 
@@ -118,7 +124,7 @@
         composedString = [NSString stringWithFormat:templateFormat, testCase.testSummaryGUID, testCase.testName, testCase.duration];
     } else {
         templateFormat = [self _decodeTemplateWithName:TestCaseTemplate];
-        composedString = [NSString stringWithFormat:templateFormat, testCase.testName, testCase.duration];
+        composedString = [NSString stringWithFormat:templateFormat, testCase.testSummaryGUID, testCase.testName, testCase.duration];
     }
 
     [self.resultString appendString:composedString];

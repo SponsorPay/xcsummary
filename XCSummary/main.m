@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "CMTestSummaryParser.h"
 #import "CMHTMLReportBuilder.h"
+#import "CMTestActivityLogsReader.h"
 #import "CMTestableSummary.h"
 #import "CMTest.h"
 
@@ -24,23 +25,28 @@ int main(int argc, const char * argv[]) {
             return EXIT_FAILURE;
         }
         
-        NSString *input = CMSummaryGetValue(arguments, @"-in");
-        NSString *output = CMSummaryGetValue(arguments, @"-out");
-        if (!input || !output) {
-            NSLog(@"-in or -out was not provided %@", arguments);
+        NSString *summary = CMSummaryGetValue(arguments, @"-s");
+        NSString *activityLogs = CMSummaryGetValue(arguments, @"-a");
+        NSString *output = CMSummaryGetValue(arguments, @"-o");
+        if (!summary || !output) {
+            NSLog(@"-s or -o was not provided %@", arguments);
             return EXIT_FAILURE;
         }
-        
-        NSString *summaryPath = [input stringByExpandingTildeInPath];
+
+        CMTestActivityLogsReader *activityLogsReader = [[CMTestActivityLogsReader alloc] initWithPath:[activityLogs stringByExpandingTildeInPath]];
+        NSString *logs = [activityLogsReader testLogs];
+
+        NSString *summaryPath = [summary stringByExpandingTildeInPath];
         NSString *attachmentsPath = [[summaryPath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"Attachments"];
         
         CMTestSummaryParser *parser = [[CMTestSummaryParser alloc] initWithPath:summaryPath];
         NSArray *summaries = [parser testSummaries];
         
-        BOOL showSuccess = CMSummaryValueExists(arguments, @"-show_success");
+        BOOL showSuccess = YES;
         CMHTMLReportBuilder *builder = [[CMHTMLReportBuilder alloc] initWithAttachmentsPath:attachmentsPath
                                                                                 resultsPath:output.stringByExpandingTildeInPath
-                                                                           showSuccessTests:showSuccess];
+                                                                           showSuccessTests:showSuccess
+                                                                               activityLogs:logs];
         [builder appendSummaries:summaries];
         [summaries enumerateObjectsUsingBlock:^(CMTestableSummary *summary, NSUInteger idx, BOOL * _Nonnull stop) {
             [builder appendTests:summary.tests];

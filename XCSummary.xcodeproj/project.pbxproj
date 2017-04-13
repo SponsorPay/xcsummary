@@ -15,6 +15,8 @@
 		A7BC743B1E0052640072AD47 /* CMTestableSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BC74291E0052640072AD47 /* CMTestableSummary.m */; };
 		A7BC743C1E0052640072AD47 /* CMTestSummaryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BC742C1E0052640072AD47 /* CMTestSummaryParser.m */; };
 		A7BC743D1E0052640072AD47 /* CMHTMLReportBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BC74321E0052640072AD47 /* CMHTMLReportBuilder.m */; };
+		F3E0294D1E9F41C300CA4DBE /* CMTestActivityLogsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E0294C1E9F41C300CA4DBE /* CMTestActivityLogsReader.m */; };
+		F3E029501E9F42F900CA4DBE /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E0294F1E9F42F900CA4DBE /* NSData+GZIP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +54,10 @@
 		A7BC74331E0052640072AD47 /* Template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Template.html; sourceTree = "<group>"; };
 		A7BC74341E0052640072AD47 /* TestCaseTemplate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TestCaseTemplate.html; sourceTree = "<group>"; };
 		A7BC74351E0052640072AD47 /* TestCaseTemplateFailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TestCaseTemplateFailed.html; sourceTree = "<group>"; };
+		F3E0294B1E9F41C300CA4DBE /* CMTestActivityLogsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTestActivityLogsReader.h; sourceTree = "<group>"; };
+		F3E0294C1E9F41C300CA4DBE /* CMTestActivityLogsReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTestActivityLogsReader.m; sourceTree = "<group>"; };
+		F3E0294E1E9F42F900CA4DBE /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
+		F3E0294F1E9F42F900CA4DBE /* NSData+GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 				A7BC741D1E0052640072AD47 /* Additions */,
 				A7BC74211E0052640072AD47 /* Models */,
 				A7BC742A1E0052640072AD47 /* Parser */,
+				F3E0294A1E9F41B700CA4DBE /* Reader */,
 				A7BC742E1E0052640072AD47 /* Templates */,
 			);
 			path = XCSummary;
@@ -98,6 +105,8 @@
 			children = (
 				A7BC741E1E0052640072AD47 /* NSArrayAdditions.h */,
 				A7BC741F1E0052640072AD47 /* NSArrayAdditions.m */,
+				F3E0294E1E9F42F900CA4DBE /* NSData+GZIP.h */,
+				F3E0294F1E9F42F900CA4DBE /* NSData+GZIP.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -139,6 +148,15 @@
 				A723D1D61E128315000F0F65 /* SummaryTemplate.html */,
 			);
 			path = Templates;
+			sourceTree = "<group>";
+		};
+		F3E0294A1E9F41B700CA4DBE /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				F3E0294B1E9F41C300CA4DBE /* CMTestActivityLogsReader.h */,
+				F3E0294C1E9F41C300CA4DBE /* CMTestActivityLogsReader.m */,
+			);
+			path = Reader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +253,9 @@
 			files = (
 				A7BC743D1E0052640072AD47 /* CMHTMLReportBuilder.m in Sources */,
 				A7BC74371E0052640072AD47 /* main.m in Sources */,
+				F3E029501E9F42F900CA4DBE /* NSData+GZIP.m in Sources */,
 				A7BC74381E0052640072AD47 /* CMActivitySummary.m in Sources */,
+				F3E0294D1E9F41C300CA4DBE /* CMTestActivityLogsReader.m in Sources */,
 				A7BC743C1E0052640072AD47 /* CMTestSummaryParser.m in Sources */,
 				A7BC743B1E0052640072AD47 /* CMTestableSummary.m in Sources */,
 				A7BC74391E0052640072AD47 /* CMEntity.m in Sources */,
