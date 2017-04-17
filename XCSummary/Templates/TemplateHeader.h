@@ -1,3 +1,5 @@
+#define TestCaseHeader @"XCTestCaseHeaderXC"
+
 #define TestCaseTemplate @"XCTestCaseTemplateXC"
 
 

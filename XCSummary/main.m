@@ -20,16 +20,20 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSArray *arguments = [[NSProcessInfo processInfo] arguments];
-        if (arguments.count < 3) {
+        if (arguments.count < 1) {
             NSLog(@"Not enough arguments %@", arguments);
             return EXIT_FAILURE;
         }
-        
-        NSString *summary = CMSummaryGetValue(arguments, @"-s");
-        NSString *activityLogs = CMSummaryGetValue(arguments, @"-a");
-        NSString *output = CMSummaryGetValue(arguments, @"-o");
-        if (!summary || !output) {
-            NSLog(@"-s or -o was not provided %@", arguments);
+
+//        ./build/xcsummary -r build_reports/results
+
+        NSString *results = CMSummaryGetValue(arguments, @"-r");
+        NSString *attachmentsPath = [NSString stringWithFormat:@"%@/2_Test/Attachments", results.lastPathComponent];
+        NSString *summary = [NSString stringWithFormat:@"%@/2_Test/action_TestSummaries.plist", results];
+        NSString *activityLogs = [NSString stringWithFormat:@"%@/2_Test/action.xcactivitylog", results];
+
+        if (!results) {
+            NSLog(@"Argument -r was not provided");
             return EXIT_FAILURE;
         }
 
@@ -37,11 +41,11 @@ int main(int argc, const char * argv[]) {
         NSString *logs = [activityLogsReader testLogs];
 
         NSString *summaryPath = [summary stringByExpandingTildeInPath];
-        NSString *attachmentsPath = [[summaryPath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"Attachments"];
-        
         CMTestSummaryParser *parser = [[CMTestSummaryParser alloc] initWithPath:summaryPath];
-        NSArray *summaries = [parser testSummaries];
-        
+        NSArray <CMTestableSummary *> *summaries = [parser testSummaries];
+
+        NSString *output = [NSString stringWithFormat:@"%@/%@.html", [results stringByDeletingLastPathComponent], summaries[0].targetName];
+
         BOOL showSuccess = YES;
         CMHTMLReportBuilder *builder = [[CMHTMLReportBuilder alloc] initWithAttachmentsPath:attachmentsPath
                                                                                 resultsPath:output.stringByExpandingTildeInPath
@@ -59,15 +63,19 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-NSString *CMSummaryGetValue(NSArray *arguments, NSString *argument) {
+NSString *CMSummaryGetValue(NSArray *arguments, NSString *argument)
+{
     NSInteger index = [arguments indexOfObject:argument];
+
     if (index != NSNotFound) {
-        return arguments[index+1];
+        return arguments[index + 1];
     }
+
     return nil;
 }
 
-BOOL CMSummaryValueExists(NSArray *arguments, NSString *argument) {
+BOOL CMSummaryValueExists(NSArray *arguments, NSString *argument)
+{
     NSInteger index = [arguments indexOfObject:argument];
     return index != NSNotFound;
 }

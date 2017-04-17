@@ -119,12 +119,21 @@
     NSString *templateFormat;
     NSString *composedString;
 
+    if ([testCase.testName isEqualToString:@"app"]) {
+        return;
+    }
+
     if (testCase.status == CMTestStatusFailure) {
         templateFormat = [self _decodeTemplateWithName:TestCaseTemplateFailed];
         composedString = [NSString stringWithFormat:templateFormat, testCase.testSummaryGUID, testCase.testName, testCase.duration];
     } else {
-        templateFormat = [self _decodeTemplateWithName:TestCaseTemplate];
-        composedString = [NSString stringWithFormat:templateFormat, testCase.testSummaryGUID, testCase.testName, testCase.duration];
+        if (!testCase.activities) {
+            templateFormat = [self _decodeTemplateWithName:TestCaseHeader];
+            composedString = [NSString stringWithFormat:templateFormat, testCase.testName, testCase.duration];
+        } else {
+            templateFormat = [self _decodeTemplateWithName:TestCaseTemplate];
+            composedString = [NSString stringWithFormat:templateFormat, testCase.testSummaryGUID, testCase.testName, testCase.duration];
+        }
     }
 
     [self.resultString appendString:composedString];
@@ -148,21 +157,16 @@
 
 - (void)_appendActivity:(CMActivitySummary *)activity
 {
-    NSString *templateFormat = nil;
-    NSString *composedString = nil;
-    if (activity.hasScreenshotData)
-    {
+    NSString *templateFormat;
+    NSString *composedString;
+
+    if (activity.hasScreenshotData) {
         templateFormat = [self _decodeTemplateWithName:ActivityTemplateWithImage];
         NSString *imageName = [NSString stringWithFormat:@"Screenshot_%@.png", activity.uuid.UUIDString];
         NSString *fullPath = [self.path stringByAppendingPathComponent:imageName];
-        
-        [self.fileManager copyItemAtPath:fullPath toPath:[self.htmlResourcePath stringByAppendingPathComponent:imageName] error:nil];
-        
-        NSString *localImageName = [NSString stringWithFormat:@"resources/Screenshot_%@.png", activity.uuid.UUIDString];
-        composedString = [NSString stringWithFormat:templateFormat, activity.title, activity.finishTimeInterval - activity.startTimeInterval, activity.uuid.UUIDString, activity.uuid.UUIDString, localImageName];
-    }
-    else
-    {
+
+        composedString = [NSString stringWithFormat:templateFormat, activity.title, activity.finishTimeInterval - activity.startTimeInterval, activity.uuid.UUIDString, activity.uuid.UUIDString, fullPath];
+    } else {
         templateFormat = [self _decodeTemplateWithName:ActivityTemplateWithoutImage];
         composedString = [NSString stringWithFormat:templateFormat, activity.title, activity.finishTimeInterval - activity.startTimeInterval];
     }
