@@ -73,9 +73,7 @@
  
     BOOL failuresPresent = failedTests > 0;
     NSString *templateFormat = [self _decodeTemplateWithName:SummaryTemplate];
-    NSTimeInterval totalTime = [[summaries valueForKeyPath:@"@sum.totalDuration"] doubleValue];
-    NSString *timeString = [self.timeFormatter stringFromTimeInterval:totalTime];
-    NSString *header = [NSString stringWithFormat:templateFormat, successfullTests + failedTests, timeString, successfullTests, failuresPresent ? @"inline": @"none", failedTests];
+    NSString *header = [NSString stringWithFormat:templateFormat, successfullTests + failedTests, successfullTests, failuresPresent ? @"inline": @"none", failedTests];
     [self.resultString appendString:header];
 }
 

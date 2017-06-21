@@ -8,7 +8,51 @@
                 content:"\A";
                 white-space:pre;
             }
+
+            .scenario {
+                margin-bottom:2px;
+                padding:6px;
+                cursor:pointer;
+            }
+
+            .failed {
+                background-color: #FF627C;
+            }
+
+            .succeeded {
+                background-color: #77DD77;
+            }
         </style>
+        <script type="text/javascript">
+            function setDisplayToElementsOfClass(cls, display) {
+                [].forEach.call(document.querySelectorAll(cls), function (el) {
+                    el.style.display = display;
+                });
+            }
+
+            function hideElementsOfClass(cls) {
+                setDisplayToElementsOfClass(cls, 'none')
+            }
+
+            function showElementsOfClass(cls) {
+                setDisplayToElementsOfClass(cls, 'block')
+            }
+
+            function showSuccessfulScenariosOnly() {
+                showElementsOfClass('.succeeded')
+                hideElementsOfClass('.failed')
+            }
+
+            function showAllScenarios() {
+                showElementsOfClass('.succeeded')
+                showElementsOfClass('.failed')
+            }
+
+            function showFailedScenariosOnly() {
+                showElementsOfClass('.failed')
+                hideElementsOfClass('.succeeded')
+            }
+        </script>
     </head>
     <body style="font-family: Menlo;font-size: 12px;">
         %@

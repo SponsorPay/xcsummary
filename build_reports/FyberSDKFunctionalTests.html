@@ -8,23 +8,62 @@
                 content:"\A";
                 white-space:pre;
             }
+
+            .scenario {
+                margin-bottom:2px;
+                padding:6px;
+                cursor:pointer;
+            }
+
+            .failed {
+                background-color: #FF627C;
+            }
+
+            .succeeded {
+                background-color: #77DD77;
+            }
         </style>
+        <script type="text/javascript">
+            function setDisplayToElementsOfClass(cls, display) {
+                [].forEach.call(document.querySelectorAll(cls), function (el) {
+                    el.style.display = display;
+                });
+            }
+
+            function hideElementsOfClass(cls) {
+                setDisplayToElementsOfClass(cls, 'none')
+            }
+
+            function showElementsOfClass(cls) {
+                setDisplayToElementsOfClass(cls, 'block')
+            }
+
+            function showSuccessfulScenariosOnly() {
+                showElementsOfClass('.succeeded')
+                hideElementsOfClass('.failed')
+            }
+
+            function showAllScenarios() {
+                showElementsOfClass('.succeeded')
+                showElementsOfClass('.failed')
+            }
+
+            function showFailedScenariosOnly() {
+                showElementsOfClass('.failed')
+                hideElementsOfClass('.succeeded')
+            }
+        </script>
     </head>
     <body style="font-family: Menlo;font-size: 12px;">
         <!-- Test Summary -->
-<div style="background-color: #eeeeee; padding:4px; text-align: right; font-size:20px">
+<div style="background-color:#eeeeee; padding:4px; text-align: right; font-size:20px">
     <table style="width: 100%">
         <tr>
-            <td style="text-align: left;padding:4px;">Test Results / <a style="color:gray;" href="resources/activityLogs.txt">Show Activity Logs</a></td>
-            <td style="text-align: right;padding:4px;">
-                <div style="display:inline;margin:10px">
-                    5 Tests
-                    <div style="display:inline;color:gray;font-size:14px">
-                        (40s)
-                    </div>
-                </div>
-                <div style="display:inline;margin:10px;color:#77DD77">2 successful</div>
-                <div style="display:inline;margin:10px;color:#FF627C">3 failed</div>
+            <td style="text-align:left;padding:4px;">Test Results / <a style="color:gray;" href="resources/activityLogs.txt">Show Activity Logs</a></td>
+            <td style="text-align:right;padding:4px;">
+                <a href="#" onclick="showAllScenarios();" style="display:inline;margin:10px"> 5 total </a>
+                <a href="#" onclick="showSuccessfulScenariosOnly();" style="display:inline;margin:10px;color:#77DD77">2 successful</a>
+                <a href="#" onclick="showFailedScenariosOnly();" style="display:inline;margin:10px;color:#FF627C">3 failed</a>
             </td>
         </tr>
     </table>
@@ -41,7 +80,7 @@
     CCISDKStartingTheSDK <div style="display:inline; color: grey">(40.95 sec)</div>
 </div>
 <!-- Testcase Failed -->
-<div style="margin-bottom: 2px; background-color: #FF627C; padding:6px; cursor: pointer;" onclick="img=document.getElementById('417A6C65-669B-4F95-8AD1-889741884F8D');img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false;">
+<div class="scenario failed" onclick="img=document.getElementById('417A6C65-669B-4F95-8AD1-889741884F8D');img.style.display=(img.style.display=='none'?'block':'none');return false;">
     asAPublisherIWantToStartTheSDKWithAppIDOnly <div style="display:inline; color: #d3d3d3">(7.21 sec)</div>
 </div>
 <div id="417A6C65-669B-4F95-8AD1-889741884F8D" style="display:none;"><!-- Common Activity Without Image -->
@@ -304,7 +343,7 @@
         <img id="6C52A436-EB34-42AA-B5C2-7A23D6D9A827" style="display: none;" src="results/2_Test/Attachments/Screenshot_6C52A436-EB34-42AA-B5C2-7A23D6D9A827.png">
 </div>
 </div><!-- Testcase Failed -->
-<div style="margin-bottom: 2px; background-color: #FF627C; padding:6px; cursor: pointer;" onclick="img=document.getElementById('8C48487A-4386-470C-B556-954ABBBD4DD4');img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false;">
+<div class="scenario failed" onclick="img=document.getElementById('8C48487A-4386-470C-B556-954ABBBD4DD4');img.style.display=(img.style.display=='none'?'block':'none');return false;">
     asAPublisherIWantToStartTheSDKWithAppIDAndUserID <div style="display:inline; color: #d3d3d3">(10.64 sec)</div>
 </div>
 <div id="8C48487A-4386-470C-B556-954ABBBD4DD4" style="display:none;"><!-- Common Activity Without Image -->
@@ -764,7 +803,7 @@
         <img id="CE0F351B-CA02-487E-A050-EEBF0F6DFBD1" style="display: none;" src="results/2_Test/Attachments/Screenshot_CE0F351B-CA02-487E-A050-EEBF0F6DFBD1.png">
 </div>
 </div><!-- Testcase Failed -->
-<div style="margin-bottom: 2px; background-color: #FF627C; padding:6px; cursor: pointer;" onclick="img=document.getElementById('2B03BDC8-6F48-464E-95B2-E51E65A2262B');img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false;">
+<div class="scenario failed" onclick="img=document.getElementById('2B03BDC8-6F48-464E-95B2-E51E65A2262B');img.style.display=(img.style.display=='none'?'block':'none');return false;">
     asAPublisherIWantToStartTheSDKWithAppIDUserIDAndASecurityToken <div style="display:inline; color: #d3d3d3">(13.53 sec)</div>
 </div>
 <div id="2B03BDC8-6F48-464E-95B2-E51E65A2262B" style="display:none;"><!-- Common Activity Without Image -->
@@ -1416,8 +1455,8 @@
         <img id="C47873E7-CCEE-447F-AF9B-E94E5B3983D5" style="display: none;" src="results/2_Test/Attachments/Screenshot_C47873E7-CCEE-447F-AF9B-E94E5B3983D5.png">
 </div>
 </div><!-- Common Testcase -->
-<div style="margin-bottom: 2px; background-color: #77DD77; padding:6px; cursor: pointer;" onclick="img=document.getElementById('FF0E08B3-385B-4320-B44F-EA9ED4EC119E');img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false;">
-    asAPublisherIWantToBeWarnedIfIStartTheSDKWithoutAnAppID <div style="display:inline; color: grey">(7.17 sec)</div>
+<div class="scenario succeeded" onclick="img=document.getElementById('FF0E08B3-385B-4320-B44F-EA9ED4EC119E');img.style.display=(img.style.display=='none'?'block':'none');return false;">
+    asAPublisherIWantToBeWarnedIfIStartTheSDKWithoutAnAppID <div style="display:inline;color:grey">(7.17 sec)</div>
 </div>
 <div id="FF0E08B3-385B-4320-B44F-EA9ED4EC119E" style="display:none;"><!-- Common Activity Without Image -->
 <div style="margin-bottom: 2px; background-color: #F3F3F3; font-size:90%">
@@ -1708,8 +1747,8 @@
     <p style="padding: 6px;margin: 5px;">Tear Down <span style="display:inline; color: grey">(0.00 sec)</span></p>
 </div>
 </div><!-- Common Testcase -->
-<div style="margin-bottom: 2px; background-color: #77DD77; padding:6px; cursor: pointer;" onclick="img=document.getElementById('9C9C9F17-4677-4086-A639-A1175EA39A82');img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false;">
-    cucumberishCleanupScenario <div style="display:inline; color: grey">(2.39 sec)</div>
+<div class="scenario succeeded" onclick="img=document.getElementById('9C9C9F17-4677-4086-A639-A1175EA39A82');img.style.display=(img.style.display=='none'?'block':'none');return false;">
+    cucumberishCleanupScenario <div style="display:inline;color:grey">(2.39 sec)</div>
 </div>
 <div id="9C9C9F17-4677-4086-A639-A1175EA39A82" style="display:none;"><!-- Common Activity Without Image -->
 <div style="margin-bottom: 2px; background-color: #F3F3F3; font-size:90%">
