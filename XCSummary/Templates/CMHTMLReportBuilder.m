@@ -174,7 +174,7 @@
         NSString *imageName = [NSString stringWithFormat:@"Screenshot_%@.png", activity.uuid.UUIDString];
         NSString *fullPath = [self.path stringByAppendingPathComponent:imageName];
 
-        composedString = [NSString stringWithFormat:templateFormat, paddingLeft, dropDownCls ,activity.uuid, activity.title, activity.finishTimeInterval - activity.startTimeInterval, activity.uuid.UUIDString, activity.uuid.UUIDString, fullPath];
+        composedString = [NSString stringWithFormat:templateFormat, paddingLeft, dropDownCls, activity.uuid, activity.title, activity.finishTimeInterval - activity.startTimeInterval, activity.uuid.UUIDString, activity.uuid.UUIDString, activity.uuid.UUIDString, fullPath];
     } else if (activity.hasPlainTextData) {
         NSString *logFileName = activity.attachements.firstObject.filename;
         NSString *logFile = [self.attachmentsResourcePath stringByAppendingPathComponent:logFileName];

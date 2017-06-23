@@ -15,6 +15,14 @@
                 font-size:90%%
             }
 
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                padding: 4px;
+                overflow: auto;
+                background-color: white
+            }
 
             .drop-down {
                 cursor:pointer;
@@ -55,6 +63,20 @@
             }
         </style>
         <script type="text/javascript">
+            function hideModalWithId(id) {
+                var modal = document.getElementById('popup-'+id);
+                modal.style.display = 'none';
+                return false;
+            }
+
+            function showModalWithId(event, id) {
+                var modal = document.getElementById('popup-'+id);
+                modal.style.left = event.clientX  + "px";
+                modal.style.top = event.clientY  + "px";
+                modal.style.display = 'block';
+                return false;
+            }
+
             function setDisplayToElementsOfClass(cls, display) {
                 [].forEach.call(document.querySelectorAll(cls), function (el) {
                     el.style.display = display;
