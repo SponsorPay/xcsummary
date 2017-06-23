@@ -17,6 +17,7 @@
 @property (nonatomic, copy) NSString *path;
 @property (nonatomic, copy) NSString *resultsPath;
 @property (nonatomic, copy) NSString *htmlResourcePath;
+@property (nonatomic, copy) NSString *attachmentsResourcePath;
 
 @property (nonatomic, strong) NSMutableString *resultString;
 @property (nonatomic, strong) NSFileManager *fileManager;
@@ -41,6 +42,7 @@
         _path = path;
         _resultsPath = resultsPath;
         _htmlResourcePath = [[resultsPath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"resources"];
+        _attachmentsResourcePath = [[[resultsPath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"results"] stringByAppendingPathComponent:@"Attachments"];
         _resultString = [NSMutableString new];
         _showSuccessTests = showSuccessTests;
         [self _prepareResourceFolder];
@@ -173,6 +175,13 @@
         NSString *fullPath = [self.path stringByAppendingPathComponent:imageName];
 
         composedString = [NSString stringWithFormat:templateFormat, paddingLeft, dropDownCls ,activity.uuid, activity.title, activity.finishTimeInterval - activity.startTimeInterval, activity.uuid.UUIDString, activity.uuid.UUIDString, fullPath];
+    } else if (activity.hasPlainTextData) {
+        NSString *logFileName = activity.attachements.firstObject.filename;
+        NSString *logFile = [self.attachmentsResourcePath stringByAppendingPathComponent:logFileName];
+        NSError *error;
+        NSString *content = [NSString stringWithContentsOfFile:logFile encoding:NSUTF8StringEncoding error:&error];
+        templateFormat = [self _decodeTemplateWithName:ActivityTemplateWithPlainText];
+        composedString = [NSString stringWithFormat:templateFormat, paddingLeft, @"hidden" ,activity.uuid, activity.title, activity.finishTimeInterval - activity.startTimeInterval, activity.uuid.UUIDString, activity.uuid.UUIDString, content];
     } else {
         templateFormat = [self _decodeTemplateWithName:ActivityTemplateWithoutImage];
         composedString = [NSString stringWithFormat:templateFormat, paddingLeft, dropDownCls, activity.uuid, activity.title, activity.finishTimeInterval - activity.startTimeInterval];

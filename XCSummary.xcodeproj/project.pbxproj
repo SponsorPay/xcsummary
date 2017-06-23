@@ -15,6 +15,7 @@
 		A7BC743B1E0052640072AD47 /* CMTestableSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BC74291E0052640072AD47 /* CMTestableSummary.m */; };
 		A7BC743C1E0052640072AD47 /* CMTestSummaryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BC742C1E0052640072AD47 /* CMTestSummaryParser.m */; };
 		A7BC743D1E0052640072AD47 /* CMHTMLReportBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BC74321E0052640072AD47 /* CMHTMLReportBuilder.m */; };
+		F373DC951EFCEED30076B23C /* CMAttachement.m in Sources */ = {isa = PBXBuildFile; fileRef = F373DC941EFCEED30076B23C /* CMAttachement.m */; };
 		F3E0294D1E9F41C300CA4DBE /* CMTestActivityLogsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E0294C1E9F41C300CA4DBE /* CMTestActivityLogsReader.m */; };
 		F3E029501E9F42F900CA4DBE /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E0294F1E9F42F900CA4DBE /* NSData+GZIP.m */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,9 @@
 		A7BC74341E0052640072AD47 /* TestCaseTemplate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TestCaseTemplate.html; sourceTree = "<group>"; };
 		A7BC74351E0052640072AD47 /* TestCaseTemplateFailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TestCaseTemplateFailed.html; sourceTree = "<group>"; };
 		F37260801EA0B8C800CA6923 /* TestCaseHeader.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TestCaseHeader.html; sourceTree = "<group>"; };
+		F373DC931EFCEED30076B23C /* CMAttachement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAttachement.h; sourceTree = "<group>"; };
+		F373DC941EFCEED30076B23C /* CMAttachement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAttachement.m; sourceTree = "<group>"; };
+		F373DC961EFCF27D0076B23C /* ActivityTemplateWithPlainText.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ActivityTemplateWithPlainText.html; sourceTree = "<group>"; };
 		F3E0294B1E9F41C300CA4DBE /* CMTestActivityLogsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTestActivityLogsReader.h; sourceTree = "<group>"; };
 		F3E0294C1E9F41C300CA4DBE /* CMTestActivityLogsReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTestActivityLogsReader.m; sourceTree = "<group>"; };
 		F3E0294E1E9F42F900CA4DBE /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				A7BC74271E0052640072AD47 /* CMTest.m */,
 				A7BC74241E0052640072AD47 /* CMEntity.h */,
 				A7BC74251E0052640072AD47 /* CMEntity.m */,
+				F373DC931EFCEED30076B23C /* CMAttachement.h */,
+				F373DC941EFCEED30076B23C /* CMAttachement.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 			children = (
 				A7BC74311E0052640072AD47 /* CMHTMLReportBuilder.h */,
 				A7BC74321E0052640072AD47 /* CMHTMLReportBuilder.m */,
+				F373DC961EFCF27D0076B23C /* ActivityTemplateWithPlainText.html */,
 				A7BC742F1E0052640072AD47 /* ActivityTemplateWithImage.html */,
 				A7BC74301E0052640072AD47 /* ActivityTemplateWithoutImage.html */,
 				F37260801EA0B8C800CA6923 /* TestCaseHeader.html */,
@@ -256,6 +263,7 @@
 			files = (
 				A7BC743D1E0052640072AD47 /* CMHTMLReportBuilder.m in Sources */,
 				A7BC74371E0052640072AD47 /* main.m in Sources */,
+				F373DC951EFCEED30076B23C /* CMAttachement.m in Sources */,
 				F3E029501E9F42F900CA4DBE /* NSData+GZIP.m in Sources */,
 				A7BC74381E0052640072AD47 /* CMActivitySummary.m in Sources */,
 				F3E0294D1E9F41C300CA4DBE /* CMTestActivityLogsReader.m in Sources */,

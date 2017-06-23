@@ -7,6 +7,7 @@
 //
 
 #import "CMEntity.h"
+#import "CMAttachement.h"
 
 @interface CMActivitySummary : CMEntity
 
@@ -18,7 +19,9 @@
 
 @property (nonatomic, readonly) BOOL hasElementsOfInterest;
 @property (nonatomic, readonly) BOOL hasScreenshotData;
+@property (nonatomic, readonly) BOOL hasPlainTextData;
 
 @property (nonatomic, strong, readonly) NSArray <CMActivitySummary *> *subActivities;
+@property (nonatomic, strong, readonly) NSArray <CMAttachement *> *attachements;
 
 @end

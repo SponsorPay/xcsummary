@@ -1,9 +1,13 @@
 #define TestCaseHeader @"XCTestCaseHeaderXC"
 
+
 #define TestCaseTemplate @"XCTestCaseTemplateXC"
 
 
 #define TestCaseTemplateFailed @"XCTestCaseTemplateFailedXC"
+
+
+#define ActivityTemplateWithPlainText @"XCActivityTemplateWithPlainTextXC"
 
 
 #define ActivityTemplateWithoutImage @"XCActivityTemplateWithoutImageXC"
