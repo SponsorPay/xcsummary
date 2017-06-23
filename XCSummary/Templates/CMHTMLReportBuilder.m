@@ -141,32 +141,41 @@
 {
     NSString *startTag = [NSString stringWithFormat:@"<div id=\"%@\" style=\"display:none;\">", test.testSummaryGUID];
     [self.resultString appendString:startTag];
-    [self _appendActivities:test.activities];
+    [self _appendActivities:test.activities level:0];
     [self.resultString appendString:@"</div>"];
 }
 
-- (void)_appendActivities:(NSArray <CMActivitySummary *> *)activities
+- (void)_appendActivities:(NSArray <CMActivitySummary *> *)activities level:(NSInteger)level
 {
     [activities enumerateObjectsUsingBlock:^(CMActivitySummary * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [self _appendActivity:obj];
-        [self _appendActivities:obj.subActivities];
+        if (obj.subActivities.count > 0) {
+            [self _appendActivity:obj level:level];
+            NSString *startTag = [NSString stringWithFormat:@"<div id=\"%@\" style=\"display:none;\">", obj.uuid];
+            [self.resultString appendString:startTag];
+            [self _appendActivities:obj.subActivities level:(level+1)];
+            [self.resultString appendString:@"</div>"];
+        } else {
+            [self _appendActivity:obj level:level];
+        }
     }];
 }
 
-- (void)_appendActivity:(CMActivitySummary *)activity
+- (void)_appendActivity:(CMActivitySummary *)activity level:(NSInteger)level
 {
     NSString *templateFormat;
     NSString *composedString;
+    NSString *dropDownCls = activity.subActivities.count == 0 ? @"hidden" : @"";
+    NSString *paddingLeft = [NSString stringWithFormat:@"%ld", level*20];
 
     if (activity.hasScreenshotData) {
         templateFormat = [self _decodeTemplateWithName:ActivityTemplateWithImage];
         NSString *imageName = [NSString stringWithFormat:@"Screenshot_%@.png", activity.uuid.UUIDString];
         NSString *fullPath = [self.path stringByAppendingPathComponent:imageName];
 
-        composedString = [NSString stringWithFormat:templateFormat, activity.title, activity.finishTimeInterval - activity.startTimeInterval, activity.uuid.UUIDString, activity.uuid.UUIDString, fullPath];
+        composedString = [NSString stringWithFormat:templateFormat, paddingLeft, dropDownCls ,activity.uuid, activity.title, activity.finishTimeInterval - activity.startTimeInterval, activity.uuid.UUIDString, activity.uuid.UUIDString, fullPath];
     } else {
         templateFormat = [self _decodeTemplateWithName:ActivityTemplateWithoutImage];
-        composedString = [NSString stringWithFormat:templateFormat, activity.title, activity.finishTimeInterval - activity.startTimeInterval];
+        composedString = [NSString stringWithFormat:templateFormat, paddingLeft, dropDownCls, activity.uuid, activity.title, activity.finishTimeInterval - activity.startTimeInterval];
     }
     
     [self.resultString appendString:composedString];
